@@ -1,7 +1,7 @@
 transformers
 streamlit
 pandas
---upgrade streamlit 
+streamlit 
 pandas 
 llama_index
 torch
