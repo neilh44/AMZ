@@ -1,21 +1,17 @@
-import os
-import torch
 import streamlit as st
 import pandas as pd
 import logging
 from llama_index.llms.huggingface import HuggingFaceLLM
 from llama_index.core import PromptTemplate, Settings
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from llama_index.llms.huggingface import HuggingFaceInferenceAPI
 
-# Load the CSV file
-@st.cache
+# Load the CSV file with caching
+@st.cache_data
 def load_csv(file_path):
     return pd.read_csv(file_path)
 
-# Load the Mistral 7B model
-@st.cache(allow_output_mutation=True)
+# Load the Mistral 7B model with caching as a resource
+@st.cache_resource(allow_output_mutation=True)
 def load_mistral_model():
     # Set up logging
     logging.basicConfig(level=logging.INFO)
