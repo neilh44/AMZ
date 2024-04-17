@@ -20,6 +20,11 @@ def validate_environment():
         st.code("pip install accelerate\npip install -i https://pypi.org/simple/ bitsandbytes")
         st.stop()
 
+# Load the CSV file
+@st.cache
+def load_csv(file_path):
+    return pd.read_csv(file_path)
+
 # Load the Mistral 7B model
 def load_mistral_model():
     # Validate environment
