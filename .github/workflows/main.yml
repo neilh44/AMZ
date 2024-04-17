@@ -24,9 +24,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install accelerate bitsandbytes
 
-      - name: Check script for syntax errors
+      - name: Check script for errors
         run: |
-          # Replace 'your_script.py' with the name of your script file
-          python -m py_compile your_script.py
+          python -c "import your_script"
