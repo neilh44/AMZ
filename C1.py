@@ -9,8 +9,6 @@ from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from llama_index.llms.huggingface import HuggingFaceInferenceAPI
 
-
-
 # Load the CSV file
 @st.cache
 def load_csv(file_path):
