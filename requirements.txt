@@ -1,2 +1,3 @@
-pip install transformers
-pip install streamlit 
+transformers
+streamlit
+pandas
