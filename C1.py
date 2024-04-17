@@ -18,7 +18,7 @@ def main():
     st.title("BART Text Generation with Streamlit")
 
     # Load the CSV file
-    csv_file_path = "https://raw.githubusercontent.com/neilh44/AMZ/main/A1.csv"
+    csv_file_path = "https://raw.githubusercontent.com/neilh44/AMZ/main/tt4.csv"
     df = load_csv(csv_file_path)
 
     # Display the CSV file
