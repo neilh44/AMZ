@@ -1,3 +1,4 @@
+import os
 import torch
 import streamlit as st
 import pandas as pd
@@ -42,7 +43,7 @@ def load_mistral_model():
         tokenizer_name=MISTRAL_7B,
         model_name=MISTRAL_7B,
         device_map="auto",
-        model_kwargs={"precision": "mixed"},
+        model_kwargs={"torch_dtype": torch.float16, "load_in_8bit": True},
     )
 
     # Define the embedding model
