@@ -9,17 +9,6 @@ from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from llama_index.llms.huggingface import HuggingFaceInferenceAPI
 
-# Function to validate environment for bitsandbytes and accelerate
-def validate_environment():
-    try:
-        import bitsandbytes
-        import accelerate
-    except ImportError:
-        st.error("Error: Using `bitsandbytes` 8-bit quantization requires `accelerate` and the latest version of `bitsandbytes`.")
-        st.info("Please run the following commands to install the required dependencies:")
-        st.code("pip install accelerate\npip install -i https://pypi.org/simple/ bitsandbytes")
-        st.stop()
-
 # Load the CSV file
 @st.cache
 def load_csv(file_path):
@@ -27,9 +16,6 @@ def load_csv(file_path):
 
 # Load the Mistral 7B model
 def load_mistral_model():
-    # Validate environment
-    validate_environment()
-
     # Set up logging
     logging.basicConfig(level=logging.INFO)
 
@@ -57,7 +43,7 @@ def load_mistral_model():
         tokenizer_name=MISTRAL_7B,
         model_name=MISTRAL_7B,
         device_map="auto",
-        model_kwargs={"torch_dtype": torch.float16, "load_in_8bit": True},
+        model_kwargs={},
     )
 
     # Define the embedding model
