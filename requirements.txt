@@ -8,5 +8,6 @@ torch
 llama-index-llms-huggingface
 llama_index.embeddings.huggingface 
 torch
---upgrade accelerate
+accelerate
 bitsandbytes
+torch torchvision
