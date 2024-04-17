@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from llama_index import Llama_Index
+from llama_index import LlamaIndex
 
 
 # Load the model and tokenizer
