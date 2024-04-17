@@ -3,14 +3,22 @@ import streamlit as st
 import pandas as pd
 from llama_index.llms.huggingface import HuggingFaceLLM
 from llama_index.core import PromptTemplate, Settings
+from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+
+# Load the CSV file with caching
+@st.cache_data
+def load_csv(file_path):
+    return pd.read_csv(file_path)
 
 # Load the language model using llama index
-llm = HuggingFaceLLM(
-    model_name="gpt2",  # or any other model from Hugging Face Transformers
-    device_map="auto",
-    model_kwargs={},
-)
-Settings.llm = llm
+@st.cache_resource
+def load_llm():
+    llm = HuggingFaceLLM(
+        model_name="gpt2",  # or any other model from Hugging Face Transformers
+        device_map="auto",
+        model_kwargs={},
+    )
+    Settings.llm = llm
 
 # Function to generate text using the language model
 def generate_text(prompt):
@@ -22,12 +30,15 @@ def main():
     st.title("Language Model Text Generation with Streamlit")
 
     # Load the CSV file
-    csv_file_path = "your_csv_file_path"
+    csv_file_path = "https://raw.githubusercontent.com/neilh44/AMZ/main/A1.csv"
+    df = load_csv(csv_file_path)
 
     # Display the CSV file (optional)
-    df = pd.read_csv(csv_file_path)
     st.subheader("CSV File Content")
     st.write(df)
+
+    # Load the language model
+    load_llm()
 
     # Text input area for user prompt
     prompt = st.text_area("Enter your prompt here:", height=100)
