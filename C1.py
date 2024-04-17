@@ -30,7 +30,7 @@ def main():
     st.title("Language Model Text Generation with Streamlit")
 
     # Load the CSV file
-    csv_file_path = "https://raw.githubusercontent.com/neilh44/AMZ/main/A1.csv"
+    csv_file_path = "https://raw.githubusercontent.com/neilh44/AMZ/main/b2.csv"
     df = load_csv(csv_file_path)
 
     # Display the CSV file (optional)
