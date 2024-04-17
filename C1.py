@@ -7,7 +7,7 @@ from llama_index.llms.huggingface import HuggingFaceLLM
 from llama_index.core import PromptTemplate, Settings
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from llama_index.llms.huggingface import HuggingFaceInferenceAPI,
+from llama_index.llms.huggingface import HuggingFaceInferenceAPI
 
 
 
