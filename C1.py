@@ -69,18 +69,21 @@ def main():
     # Text input area for user prompt
     prompt = st.text_area("Enter your prompt here:", height=100)
 
+    # Tokenize the user prompt
+    tokens = Settings.embed_model.tokenize(prompt)
+
     # Button to generate text
     if st.button("Generate Text"):
         # Generate text
-        generated_text = generate_text(prompt)
+        generated_text = generate_text(tokens)
 
         # Display generated text
         st.subheader("Generated Text:")
         st.write(generated_text)
 
 # Function to generate text using Mistral 7B model
-def generate_text(prompt):
-    return Settings.llm.generate(prompt)
+def generate_text(tokens):
+    return Settings.llm.generate(tokens)
 
 if __name__ == "__main__":
     main()
