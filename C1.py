@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from llama_index import LlamaIndex
+from llama_index import GPTVectorStoreIndex, ServiceContext, set_global_service_context
 
 
 # Load the model and tokenizer
