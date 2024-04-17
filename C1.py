@@ -1,4 +1,3 @@
-# Import necessary libraries
 import streamlit as st
 import pandas as pd
 from llama_index.llms.huggingface import HuggingFaceLLM
@@ -14,7 +13,7 @@ def load_csv(file_path):
 @st.cache_resource
 def load_llm():
     llm = HuggingFaceLLM(
-        model_name="gpt2",  # or any other model from Hugging Face Transformers
+        model_name="EleutherAI/mistral-7B",
         device_map="auto",
         model_kwargs={},
     )
