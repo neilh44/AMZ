@@ -1,14 +1,14 @@
 import streamlit as st
 import pandas as pd
-from transformers import BartTokenizer, BartForConditionalGeneration
+import logging
+from transformers import BartForConditionalGeneration, BartTokenizer
 
-# Load the BART model and tokenizer
-model_name = "facebook/bart-large-cnn"
-tokenizer = BartTokenizer.from_pretrained(model_name)
-model = BartForConditionalGeneration.from_pretrained(model_name)
+# Load BART model and tokenizer
+model = BartForConditionalGeneration.from_pretrained("facebook/bart-large-cnn")
+tokenizer = BartTokenizer.from_pretrained("facebook/bart-large-cnn")
 
 # Load the CSV file with caching
-@st.cache
+@st.cache_data
 def load_csv(file_path):
     return pd.read_csv(file_path)
 
@@ -18,7 +18,7 @@ def main():
     st.title("BART Text Generation with Streamlit")
 
     # Load the CSV file
-    csv_file_path = "https://raw.githubusercontent.com/neilh44/AMZ/main/tt4.csv"
+    csv_file_path = "https://raw.githubusercontent.com/neilh44/AMZ/main/A1.csv"
     df = load_csv(csv_file_path)
 
     # Display the CSV file
@@ -30,18 +30,19 @@ def main():
 
     # Button to generate text
     if st.button("Generate Text"):
-        # Tokenize the prompt
-        inputs = tokenizer(prompt, return_tensors="pt", max_length=1024, truncation=True)
+        # Tokenize prompt
+        input_ids = tokenizer.encode(prompt, return_tensors="pt", max_length=1024, truncation=True)
 
         # Generate text
-        outputs = model.generate(**inputs)
+        output_ids = model.generate(input_ids, max_length=200, num_return_sequences=1, early_stopping=True)
 
-        # Decode the generated text
-        generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+        # Decode generated text
+        generated_text = tokenizer.decode(output_ids[0], skip_special_tokens=True)
 
         # Display generated text
         st.subheader("Generated Text:")
         st.write(generated_text)
 
+# Function to generate text using BART model
 if __name__ == "__main__":
     main()
