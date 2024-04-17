@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import torch
 import logging
 from llama_index.llms.huggingface import HuggingFaceLLM
 from llama_index.core import PromptTemplate, Settings
