@@ -5,10 +5,17 @@ from llama_index.llms.huggingface import HuggingFaceLLM
 from llama_index.core import PromptTemplate, Settings
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
-# Load the CSV file with caching
+# Load the CSV file with custom parsing options
 @st.cache_data
 def load_csv(file_path):
-    return pd.read_csv(file_path)
+    # Define custom parsing options
+    custom_options = {
+        'encoding': 'utf-8',  # Specify the encoding of the CSV file
+        'sep': ',',           # Specify the delimiter used in the CSV file (comma-separated)
+        'quotechar': '"',     # Specify the quote character used to enclose fields
+        'skiprows': 11        # Specify the number of initial rows to skip (excluding header)
+    }
+    return pd.read_csv(file_path, **custom_options)
 
 # Load the Mistral 7B model with caching as a resource
 @st.cache_resource
@@ -69,21 +76,18 @@ def main():
     # Text input area for user prompt
     prompt = st.text_area("Enter your prompt here:", height=100)
 
-    # Tokenize the user prompt
-    tokens = Settings.embed_model.tokenize(prompt)
-
     # Button to generate text
     if st.button("Generate Text"):
         # Generate text
-        generated_text = generate_text(tokens)
+        generated_text = generate_text(prompt)
 
         # Display generated text
         st.subheader("Generated Text:")
         st.write(generated_text)
 
 # Function to generate text using Mistral 7B model
-def generate_text(tokens):
-    return Settings.llm.generate(tokens)
+def generate_text(prompt):
+    return Settings.llm.generate(prompt)
 
 if __name__ == "__main__":
     main()
