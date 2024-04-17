@@ -5,3 +5,4 @@ pandas
 pandas 
 llama_index
 torch
+llama-index-llms-huggingface
