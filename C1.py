@@ -11,15 +11,6 @@ model = AutoModelForCausalLM.from_pretrained(model_name)
 def main():
     st.title("Text Generation with Mistral 7B")
 
-    # CSV file URL
-    csv_url = "https://raw.githubusercontent.com/neilh44/AMZ/main/tt4.csv"
-
-    # Read the CSV file from URL
-    df = pd.read_csv(csv_url)
-
-    # Display the loaded DataFrame
-    st.write(df)
-
     # Text input area for user prompt
     prompt = st.text_area("Enter your prompt here:", height=100)
 
