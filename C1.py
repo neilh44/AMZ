@@ -6,12 +6,12 @@ from llama_index.core import PromptTemplate, Settings
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
 # Load the CSV file with caching
-@st.cache_data
+@st.cache
 def load_csv(file_path):
     return pd.read_csv(file_path)
 
 # Load the Mistral 7B model with caching as a resource
-@st.cache_resource(allow_output_mutation=True)
+@st.cache_resource
 def load_mistral_model():
     # Set up logging
     logging.basicConfig(level=logging.INFO)
