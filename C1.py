@@ -1,12 +1,14 @@
 import streamlit as st
 import pandas as pd
-import logging
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
 # Load GPT-2 model and tokenizer
 model_name = "gpt2"
 model = GPT2LMHeadModel.from_pretrained(model_name)
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+
+# Set pad_token_id to eos_token_id for open-end generation
+model.config.pad_token_id = model.config.eos_token_id
 
 # Load the CSV file with caching
 @st.cache_data
@@ -35,7 +37,7 @@ def main():
         input_ids = tokenizer.encode(prompt, return_tensors="pt", max_length=1024, truncation=True)
 
         # Generate text
-        output_ids = model.generate(input_ids, max_length=200, num_return_sequences=1, early_stopping=True)
+        output_ids = model.generate(input_ids, max_length=200, num_return_sequences=1, early_stopping=True, attention_mask=input_ids.ne(tokenizer.pad_token_id))
 
         # Decode generated text
         generated_text = tokenizer.decode(output_ids[0], skip_special_tokens=True)
