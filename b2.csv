@@ -1,0 +1,902 @@
+﻿"Includes Amazon Marketplace, Fulfillment by Amazon (FBA), and Amazon Webstore transactions"
+"All amounts in INR, unless specified"
+"Definitions:"
+"Total sales tax liable:Includes GST or sales tax collected from buyers for product sales, shipping, and gift wrap."
+"TCS-CGST:Tax Collected at Source from Central GST"
+"TCS-SGST:Tax Collected at Source from State GST"
+"TCS-IGST:Tax Collected at Source from Integrated GST"
+"TDS (Section 194-O): Tax Deducted at Source under Section 194-O of Income tax Act, 1961"
+"Selling fees: Includes variable closing fees and referral fees."
+"Other transaction fees: Includes shipping chargebacks, shipping holdbacks, and sales tax collection fees.
+"
+"Other: Includes non-order transaction amounts. For more details, see the ""Type"" and ""Description"" columns for each order ID."
+"date/time","settlement id
+","type
+","order id","Sku","description
+","quantity","marketplace
+","account type","fulfillment","order city
+","order state
+","order postal
+","product sales
+","shipping credits
+","promotional rebates
+","Total sales tax liable(GST before adjusting TCS)","TCS-CGST","TCS-SGST","TCS-IGST","TDS (Section 194-O)","selling fees
+","fba fees
+","other transaction fees
+","other
+","total
+"
+"28 Feb 2022 11:29:50 pm UTC","17211222672","Refund
+","402-0447361-8028365","W4-BCML-II6W","Pehel International Unisex Cotton Reusable Gloves Ideal for Gardening, Kitchen and Daily Routine Activities (White, Set of 10 Pairs)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","SHILLONG","MEGHALAYA","793010","-284.76","0","0","-14.24","0","0","2.85","0","5.64","0","14.16","0","-276.35"
+"1 Mar 2022 5:25:28 am UTC","17211222672","Tax Withheld","","","TDS - Section 194-O - Mon Feb 28 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-17.78","0","0","0","0","-17.78"
+"1 Mar 2022 8:05:25 am UTC","17211222672","Refund
+","403-2573608-6439518","JG-L67I-52WR","PEHEL INTERNATIONAL ® Bouffant Cap (Black, 100 Pieces)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","VADODARA","GUJARAT","390021","-214.28","0","0","-10.72","1.07","1.07","0","0","4.25","0","9.44","0","-209.17"
+"1 Mar 2022 8:54:38 am UTC","17211222672","Refund
+","171-6963429-9157900","DV-M5JS-7A5J","Wellness Pavillion Disposable underpad, 60x90 cms, 10 Pcs/pack (Pack of 1) |Incontinence Pads, Bed Covers, Puppy Training | Thick, Super Absorbent Pro","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","KOLKATA","WEST BENGAL","700039","-379.04","0","0","-18.96","0","0","3.80","0","7.51","0","18.88","0","-367.81"
+"1 Mar 2022 8:59:08 am UTC","17211801822","Shipping Services
+","408-0074054-3547539","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","0","0"
+"1 Mar 2022 8:59:14 am UTC","17211801822","Shipping Services
+","402-6346177-9805961","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"1 Mar 2022 9:12:51 am UTC","17211222672","Order
+","408-0074054-3547539","N8-0W4B-SDD8","SOFT HANDS Latex Medical Examination Gloves (White, Large)","3","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","CHENNAI","TAMIL NADU","600072","0","0","0","0","0","0","0","0","0","0","0","0","0"
+"1 Mar 2022 9:13:32 am UTC","17211801822","Order
+","402-6346177-9805961","NM-8PT8-XDXF","Pehel International Black Bouffant Cap 100 Pcs","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","GUNTUR","ANDHRA PRADESH","522329","238.10","0","0","11.90","0","0","-2.38","0","-5.90","0","-9.44","0","232.28"
+"2 Mar 2022 1:54:57 am UTC","17211222672","Refund
+","408-7563672-3713907","JG-L67I-52WR","PEHEL INTERNATIONAL ® Bouffant Cap (Black, 100 Pieces)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","HYDERABAD","TELANGANA","500013","-214.29","0","0","-10.71","0","0","2.14","0","4.25","0","9.44","0","-209.17"
+"2 Mar 2022 4:52:06 am UTC","17211801822","Tax Withheld","","","TDS - Section 194-O - Tue Mar 01 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-2.38","0","0","0","0","-2.38"
+"2 Mar 2022 8:57:33 am UTC","17211801822","Shipping Services
+","404-2409106-6973937","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"2 Mar 2022 9:13:09 am UTC","17211801822","Order
+","404-2409106-6973937","C3-HD8B-8E3Y","Pehel International ® | Reusable Natural Latex Safety Gloves | for Washing, Cleaning, Kitchen, Garden, Sanitation & Other Daily uses, Yellow Color |","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","CHENNAI","TAMIL NADU","600127","400.89","0","0","48.11","0","0","-4.01","0","-47.68","0","-14.16","0","383.15"
+"2 Mar 2022 9:15:44 am UTC","17211801822","Shipping Services
+","171-1781422-8505906","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-341.02","0","-341.02"
+"2 Mar 2022 9:30:13 am UTC","17211801822","Order
+","171-1781422-8505906","QJ-BYLE-NHCY","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","NEW DELHI","DELHI","110044","1,270.34","0","0","228.66","0","0","-12.70","0","-265.32","0","-66.08","0","1,154.90"
+"2 Mar 2022 4:18:55 pm UTC","17211222672","Refund
+","406-9090647-3297147","W4-BCML-II6W","Pehel International Unisex Cotton Reusable Gloves Ideal for Gardening, Kitchen and Daily Routine Activities (White, Set of 10 Pairs)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","MUZAFFARPUR","BIHAR","842002","-380.00","0","0","-19.00","0","0","3.80","0","33.90","0","14.16","0","-347.14"
+"3 Mar 2022 5:09:15 am UTC","17211801822","Tax Withheld","","","TDS - Section 194-O - Wed Mar 02 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-16.71","0","0","0","0","-16.71"
+"3 Mar 2022 6:56:06 am UTC","17211222672","Refund
+","405-8277461-5599504","DV-M5JS-7A5J","Wellness Pavillion Disposable underpad, 60x90 cms, 10 Pcs/pack (Pack of 1) |Incontinence Pads, Bed Covers, Puppy Training | Thick, Super Absorbent Pro","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","Kolkata","West Bengal","700075","-189.52","0","0","-9.48","0","0","1.90","0","3.76","0","9.44","0","-183.90"
+"3 Mar 2022 7:13:07 am UTC","17253003812","Transfer
+","","","To account ending with: ","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","0","0","0","0","-1,047.34","-1,047.34"
+"3 Mar 2022 8:52:25 am UTC","17253003812","Shipping Services
+","408-0627569-3805957","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"3 Mar 2022 8:52:25 am UTC","17253003812","Shipping Services
+","406-2107230-3950703","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"3 Mar 2022 8:52:28 am UTC","17253003812","Shipping Services
+","171-2217846-1741915","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"3 Mar 2022 8:52:28 am UTC","17253003812","Shipping Services
+","408-7980173-0335549","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"3 Mar 2022 8:52:28 am UTC","17253003812","Shipping Services
+","408-9480336-9251518","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"3 Mar 2022 8:52:28 am UTC","17253003812","Shipping Services
+","408-3829010-8140305","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"3 Mar 2022 9:07:07 am UTC","17253003812","Order
+","406-2107230-3950703","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","PUNE","MAHARASHTRA","411040","237.14","0","0","11.86","0","0","-2.37","0","-5.88","0","-9.44","0","231.31"
+"3 Mar 2022 9:07:33 am UTC","17253003812","Order
+","408-3829010-8140305","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","BENGALURU","KARNATAKA","560040","237.14","0","0","11.86","0","0","-2.37","0","-5.88","0","-9.44","0","231.31"
+"3 Mar 2022 9:07:45 am UTC","17253003812","Order
+","408-9480336-9251518","JG-L67I-52WR","PEHEL INTERNATIONAL ® Bouffant Cap (Black, 100 Pieces)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","HYDERABAD","TELANGANA","500013","214.29","0","0","10.71","0","0","-2.14","0","-5.31","0","-9.44","0","208.11"
+"3 Mar 2022 9:07:45 am UTC","17253003812","Order
+","408-7980173-0335549","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","BENGALURU","KARNATAKA","560040","237.14","0","0","11.86","0","0","-2.37","0","-5.88","0","-9.44","0","231.31"
+"3 Mar 2022 9:07:49 am UTC","17253003812","Order
+","171-2217846-1741915","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","MUMBAI","MAHARASHTRA","400058","237.14","0","0","11.86","0","0","-2.37","0","-5.88","0","-9.44","0","231.31"
+"3 Mar 2022 9:07:58 am UTC","17253003812","Order
+","408-0627569-3805957","NN-CE3J-WII2","Pehel International ® Unisex Disposable Bouffant Cap (Blue) -100 Pieces","4","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","vyara","GUJARAT","394650","377.12","0","0","18.88","-1.88","-1.88","0","0","-9.35","0","-37.76","0","345.13"
+"3 Mar 2022 4:05:04 pm UTC","17253003812","Refund
+","407-2927181-8227559","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","VIJAYAWADA","ANDHRA PRADESH","520002","-237.14","0","0","-11.86","0","0","2.37","0","5.88","0","9.44","0","-231.31"
+"3 Mar 2022 6:11:42 pm UTC","17211222672","Reimbursements","171-4590059-3159556","C1-09R0-O8VX","Reimbursement issued for lost or damaged package","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","651.39","651.39"
+"3 Mar 2022 6:14:17 pm UTC","17211222672","Reimbursements","171-0010120-9801119","7O-NUU2-KM8Q","Reimbursement issued for lost or damaged package","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","285.27","285.27"
+"3 Mar 2022 6:28:20 pm UTC","17211222672","Reimbursements","408-8180983-4207524","AD-FG6D-VT9T","Reimbursement issued for lost or damaged package","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","781.07","781.07"
+"3 Mar 2022 6:43:27 pm UTC","17211222672","Reimbursements","405-3696066-6107531","8H-ZNSD-WJN5","Reimbursement issued for lost or damaged package","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","145.90","145.90"
+"3 Mar 2022 6:46:28 pm UTC","17211222672","Reimbursements","171-0010120-9801119","7O-NUU2-KM8Q","Reimbursement issued for lost or damaged package","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","285.27","285.27"
+"4 Mar 2022 3:10:22 am UTC","17251854272","Refund
+","403-7595128-9960354","QJ-BYLE-NHCY","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","MATHURA","UTTAR PRADESH","281001","-1,270.34","0","0","-228.66","0","0","12.70","0","212.26","0","66.08","0","-1,207.96"
+"4 Mar 2022 5:02:03 am UTC","17253003812","Tax Withheld","","","TDS - Section 194-O - Thu Mar 03 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-15.40","0","0","0","0","-15.40"
+"4 Mar 2022 7:33:04 am UTC","17251854272","Refund
+","171-4772451-9165113","DV-M5JS-7A5J","Wellness Pavillion Disposable underpad, 60x90 cms, 10 Pcs/pack (Pack of 1) |Incontinence Pads, Bed Covers, Puppy Training | Thick, Super Absorbent Pro","3","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","KOLKATA","WEST BENGAL","700075","-568.56","0","0","-28.44","0","0","5.70","0","11.27","0","28.32","0","-551.71"
+"4 Mar 2022 8:09:14 am UTC","17251854272","Refund
+","406-2879453-6766736","DV-M5JS-7A5J","Wellness Pavillion Disposable underpad, 60x90 cms, 10 Pcs/pack (Pack of 1) |Incontinence Pads, Bed Covers, Puppy Training | Thick, Super Absorbent Pro","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","POOTHAKKULAM","KERALA","691302","-189.52","0","0","-9.48","0","0","1.90","0","3.76","0","9.44","0","-183.90"
+"4 Mar 2022 8:47:08 am UTC","17253003812","Shipping Services
+","403-8993865-3265117","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-105.02","0","-105.02"
+"4 Mar 2022 9:02:54 am UTC","17253003812","Order
+","403-8993865-3265117","3Q-9W5Z-X2RP","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","THANE","MAHARASHTRA","400610","292.37","0","0","52.63","0","0","-2.92","0","-56.99","0","-14.16","0","270.93"
+"4 Mar 2022 9:09:55 am UTC","17251854272","Refund
+","408-4158577-1657154","QJ-BYLE-NHCY","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","TIPTUR","KARNATAKA","572201","-1,270.34","0","0","-228.66","0","0","12.70","0","212.26","0","66.08","0","-1,207.96"
+"4 Mar 2022 12:12:00 pm UTC","17251854272","Refund
+","407-5631902-2529903","DV-M5JS-7A5J","Wellness Pavillion Disposable underpad, 60x90 cms, 10 Pcs/pack (Pack of 1) |Incontinence Pads, Bed Covers, Puppy Training | Thick, Super Absorbent Pro","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","KOLKATA","WEST BENGAL","700055","-189.52","0","0","-9.48","0","0","1.90","0","3.76","0","9.44","0","-183.90"
+"5 Mar 2022 5:22:34 am UTC","17253003812","Tax Withheld","","","TDS - Section 194-O - Fri Mar 04 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-2.92","0","0","0","0","-2.92"
+"5 Mar 2022 8:56:16 am UTC","17251854272","Shipping Services
+","408-4769156-7490707","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-341.02","0","-341.02"
+"5 Mar 2022 9:12:09 am UTC","17251854272","Order
+","408-4769156-7490707","QJ-BYLE-NHCY","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","TIPTUR","KARNATAKA","572201","1,270.34","0","0","228.66","0","0","-12.70","0","-265.32","0","-66.08","0","1,154.90"
+"5 Mar 2022 12:44:26 pm UTC","17253003812","Refund
+","171-1781422-8505906","QJ-BYLE-NHCY","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","NEW DELHI","DELHI","110044","-1,270.34","0","0","-228.66","0","0","12.70","0","212.26","0","66.08","0","-1,207.96"
+"5 Mar 2022 7:17:19 pm UTC","17251854272","Reimbursements","408-1450138-1954768","NN-CE3J-WII2","Reimbursement issued for lost or damaged package","4","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","247.50","247.50"
+"5 Mar 2022 7:19:37 pm UTC","17251854272","Reimbursements","407-4401709-5750713","7O-NUU2-KM8Q","Reimbursement issued for lost or damaged package","8","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","1,711.65","1,711.65"
+"5 Mar 2022 7:20:58 pm UTC","17251854272","Reimbursements","405-6849519-5659500","7O-NUU2-KM8Q","Reimbursement issued for lost or damaged package","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","570.55","570.55"
+"5 Mar 2022 7:29:15 pm UTC","17251854272","Reimbursements","407-4696017-7201948","8H-ZNSD-WJN5","Reimbursement issued for lost or damaged package","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","72.95","72.95"
+"5 Mar 2022 7:33:53 pm UTC","17251854272","Reimbursements","402-8516558-9344335","8H-ZNSD-WJN5","Reimbursement issued for lost or damaged package","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","113.31","113.31"
+"5 Mar 2022 7:39:41 pm UTC","17251854272","Reimbursements","402-9471825-7428326","NM-8PT8-XDXF","Reimbursement issued for lost or damaged package","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","445.52","445.52"
+"6 Mar 2022 5:01:39 am UTC","17251854272","Tax Withheld","","","TDS - Section 194-O - Sat Mar 05 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-12.70","0","0","0","0","-12.70"
+"6 Mar 2022 7:50:43 am UTC","17287804872","Transfer
+","","","To account ending with: ","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","0","0","0","0","-5,408.98","-5,408.98"
+"6 Mar 2022 7:51:45 am UTC","17287804872","Refund
+","406-2107230-3950703","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","PUNE","MAHARASHTRA","411040","-237.14","0","0","-11.86","0","0","2.37","0","5.88","0","9.44","0","-231.31"
+"6 Mar 2022 9:52:15 am UTC","17251854272","Shipping Services
+","407-4030397-2487518","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"6 Mar 2022 9:52:23 am UTC","17287804872","Shipping Services
+","171-6897805-8444350","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"6 Mar 2022 9:52:33 am UTC","17287804872","Shipping Services
+","407-8251154-1257959","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"6 Mar 2022 9:52:38 am UTC","17251854272","Shipping Services
+","408-8779007-4797951","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"6 Mar 2022 9:53:07 am UTC","17287804872","Shipping Services
+","403-5022050-5124347","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"6 Mar 2022 9:53:07 am UTC","17287804872","Shipping Services
+","403-5888634-4111510","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-341.02","0","-341.02"
+"6 Mar 2022 10:07:49 am UTC","17287804872","Order
+","403-5888634-4111510","QJ-BYLE-NHCY","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","UPPER TADONG","SIKKIM","737102","1,270.34","0","0","228.66","0","0","-12.70","0","-265.32","0","-66.08","0","1,154.90"
+"6 Mar 2022 10:07:56 am UTC","17287804872","Order
+","403-5022050-5124347","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","KOHIMA","NAGALAND","797001","237.14","0","0","11.86","0","0","-2.37","0","-5.88","0","-9.44","0","231.31"
+"6 Mar 2022 10:08:05 am UTC","17287804872","Order
+","171-6897805-8444350","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","MUMBAI","MAHARASHTRA","400005","237.14","0","0","11.86","0","0","-2.37","0","-5.88","0","-9.44","0","231.31"
+"6 Mar 2022 10:08:05 am UTC","17251854272","Order
+","407-4030397-2487518","NN-CE3J-WII2","Pehel International ® Unisex Disposable Bouffant Cap (Blue) -100 Pieces","5","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","TIRUPPUR","TAMIL NADU","641606","471.45","0","0","23.55","0","0","-4.70","0","-11.68","0","-47.20","0","431.42"
+"6 Mar 2022 10:08:08 am UTC","17251854272","Order
+","408-8779007-4797951","JG-L67I-52WR","PEHEL INTERNATIONAL ® Bouffant Cap (Black, 100 Pieces)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","THAZHUTHALA","KERALA","691020","214.29","0","0","10.71","0","0","-2.14","0","-5.31","0","-9.44","0","208.11"
+"6 Mar 2022 10:08:40 am UTC","17287804872","Order
+","407-8251154-1257959","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","NEW DELHI","DELHI","110065","237.14","0","0","11.86","0","0","-2.37","0","-5.88","0","-9.44","0","231.31"
+"7 Mar 2022 4:30:54 am UTC","17251854272","Refund
+","408-1495014-1947569","DV-M5JS-7A5J","Wellness Pavillion Disposable underpad, 60x90 cms, 10 Pcs/pack (Pack of 1) |Incontinence Pads, Bed Covers, Puppy Training | Thick, Super Absorbent Pro","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","PALAI","KERALA","686575","-189.52","0","0","-9.48","0","0","1.90","0","4.70","0","9.44","0","-182.96"
+"7 Mar 2022 5:00:47 am UTC","17251854272","FBA Inventory Fee
+","","","FBA Inventory Storage Fee","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","0","0","0"
+"7 Mar 2022 5:07:04 am UTC","17287804872","Tax Withheld","","","TDS - Section 194-O - Sun Mar 06 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-19.82","0","0","0","0","-19.82"
+"7 Mar 2022 5:09:16 am UTC","17251854272","Tax Withheld","","","TDS - Section 194-O - Sun Mar 06 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-6.86","0","0","0","0","-6.86"
+"7 Mar 2022 5:56:18 am UTC","17287804872","Refund
+","408-9480336-9251518","JG-L67I-52WR","PEHEL INTERNATIONAL ® Bouffant Cap (Black, 100 Pieces)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","HYDERABAD","TELANGANA","500013","-214.29","0","0","-10.71","0","0","2.14","0","4.25","0","9.44","0","-209.17"
+"7 Mar 2022 6:02:49 am UTC","17287804872","Refund
+","403-8993865-3265117","3Q-9W5Z-X2RP","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","THANE","MAHARASHTRA","400610","-292.37","0","0","-52.63","0","0","2.92","0","45.59","0","14.16","0","-282.33"
+"7 Mar 2022 7:49:18 am UTC","17287804872","Refund
+","406-1827043-4202707","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","9","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","BANGALORE","KARNATAKA","560037","-2,134.26","0","0","-106.74","0","0","21.33","0","42.31","0","84.96","0","-2,092.40"
+"7 Mar 2022 9:36:41 am UTC","17251854272","Adjustment
+","171-0979905-7449165","YJ-JER8-MKPQ","FBA Inventory Reimbursement - Customer Service Issue","1","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","0","207.66","207.66"
+"7 Mar 2022 9:41:02 am UTC","17251854272","Adjustment
+","408-1822015-5717902","C3-HD8B-8E2Y","FBA Inventory Reimbursement - Customer Service Issue","1","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","0","139.93","139.93"
+"7 Mar 2022 9:42:00 am UTC","17251854272","Adjustment
+","406-2882164-7047532","79-D471-3M49","FBA Inventory Reimbursement - Customer Service Issue","1","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","0","354.74","354.74"
+"7 Mar 2022 9:56:21 am UTC","17251854272","Adjustment
+","402-6225868-6161104","C3-HD8B-8E1Y","FBA Inventory Reimbursement - Customer Service Issue","1","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","0","98.13","98.13"
+"7 Mar 2022 10:12:51 am UTC","17251854272","Adjustment
+","404-2023786-8870704","YJ-JER8-MKPQ","FBA Inventory Reimbursement - Customer Service Issue","1","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","0","207.66","207.66"
+"7 Mar 2022 10:17:56 am UTC","17251854272","Adjustment
+","407-9903524-2331515","C3-HD8B-8E1Y","FBA Inventory Reimbursement - Customer Service Issue","1","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","0","98.13","98.13"
+"7 Mar 2022 10:30:06 am UTC","17251854272","Adjustment
+","404-5311307-1037937","79-D471-3M49","FBA Inventory Reimbursement - Customer Service Issue","1","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","0","354.74","354.74"
+"7 Mar 2022 10:41:44 am UTC","17251854272","Adjustment
+","404-9363320-8512365","C3-HD8B-8E1Y","FBA Inventory Reimbursement - Customer Service Issue","1","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","0","98.13","98.13"
+"7 Mar 2022 10:44:24 am UTC","17251854272","Adjustment
+","402-5557872-9989115","YJ-JER8-MKPQ","FBA Inventory Reimbursement - Customer Service Issue","1","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","0","207.66","207.66"
+"7 Mar 2022 10:52:53 am UTC","17251854272","Adjustment
+","406-0836275-9777932","YJ-JER8-MKPQ","FBA Inventory Reimbursement - Customer Service Issue","1","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","0","207.66","207.66"
+"7 Mar 2022 10:57:52 am UTC","17251854272","Adjustment
+","406-4553861-4760360","YJ-JER8-MKPQ","FBA Inventory Reimbursement - Customer Service Issue","1","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","0","207.66","207.66"
+"7 Mar 2022 7:19:31 pm UTC","17287804872","Cancellation","403-8815346-5412314","","Order Cancellation Charge","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-23.13","0","-23.13"
+"8 Mar 2022 1:29:21 am UTC","17251854272","Refund
+","408-0826362-3010743","RN-8X3V-0GXK","PEHEL INTERNATIONAL | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All | (B","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","Bhagaiya","JHARKHAND","813208","-507.63","0","0","-91.37","0","0","5.08","0","79.16","0","29.50","0","-485.26"
+"8 Mar 2022 9:23:41 am UTC","17306019512","Order
+","171-8434109-8121918","C3-HD8B-8E1Y","Pehel International ® Reusable Natural Latex Safety Gloves for Washing, Cleaning, Kitchen, Garden, Sanitation & Daily uses, Yellow - Set of 2 Pair.","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","KUMARAPURAM","KERALA","690514","177.68","35.71","0","25.61","0","0","-2.14","0","-4.70","-124.96","-9.44","0","97.76"
+"8 Mar 2022 9:24:01 am UTC","17306019512","Order
+","405-6102327-2888367","C3-HD8B-8E2Y","Pehel International | Reusable Natural Latex Safety Gloves | for Washing, Cleaning, Kitchen, Garden, Sanitation & Other Daily uses, Yellow Color | Pac","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","IMPHAL","MANIPUR","795004","253.39","33.90","-33.90","45.61","0","0","-2.53","0","-7.06","-84.96","-14.16","0","190.29"
+"8 Mar 2022 9:35:52 am UTC","17306019512","Order
+","171-7885582-7382734","AM-YQT8-F5EX","HEISHI Unisex Cotton Reusable Gloves (White, Set of 5 Pairs)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","GURUGRAM","HARYANA","122002","237.14","0","0","11.86","0","0","-2.37","0","-5.88","-84.96","-9.44","0","146.35"
+"8 Mar 2022 10:27:54 am UTC","17306019512","Transfer
+","","","To account ending with: ","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","0","0","0","0","-576.53","-576.53"
+"8 Mar 2022 10:37:44 am UTC","17251854272","Shipping Services
+","408-6356668-2657121","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-341.02","0","-341.02"
+"8 Mar 2022 10:37:48 am UTC","17306019512","Shipping Services
+","408-6970748-9276335","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"8 Mar 2022 10:44:02 am UTC","17306019512","Shipping Services
+","405-8057732-1158712","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-146.32","0","-146.32"
+"8 Mar 2022 10:51:31 am UTC","17251854272","Order
+","408-6356668-2657121","QJ-BYLE-NHCY","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","SIPCOT THOOTHUKUDI","TAMIL NADU","628008","1,270.34","0","0","228.66","0","0","-12.70","0","-265.32","0","-66.08","0","1,154.90"
+"8 Mar 2022 10:52:13 am UTC","17306019512","Order
+","408-6970748-9276335","W4-BCML-II6W","Pehel International Unisex Cotton Reusable Gloves Ideal for Gardening, Kitchen and Daily Routine Activities (White, Set of 10 Pairs)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","VILLUPURAM","TAMIL NADU","605602","380.00","0","0","19.00","0","0","-3.80","0","-42.37","0","-14.16","0","338.67"
+"8 Mar 2022 10:52:45 am UTC","17306019512","Order
+","407-1228802-2286749","AM-YQT8-F5EX","HEISHI Unisex Cotton Reusable Gloves (White, Set of 5 Pairs)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","CHENNAI","TAMIL NADU","600030","237.14","0","0","11.86","0","0","-2.37","0","-5.88","-84.96","-9.44","0","146.35"
+"8 Mar 2022 10:53:46 am UTC","17306019512","Order
+","402-0358439-5387504","JV-4MJ0-OWH1","Pehel International resuable and washable Sponge Wipes with super absorbant biodegradable cellulose material for kitchen and home cleaning (Multicolor","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","VIRUDHUNAGAR","TAMIL NADU","626123","295.76","0","0","53.24","0","0","-2.96","0","-37.06","-84.96","-14.16","0","209.86"
+"8 Mar 2022 10:58:22 am UTC","17306019512","Order
+","405-8057732-1158712","3Q-9W5Z-X2RP","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","PATNA","BIHAR","800014","292.37","0","0","52.63","0","0","-2.92","0","-56.99","0","-14.16","0","270.93"
+"8 Mar 2022 4:45:51 pm UTC","17251854272","Reimbursements","405-7297079-5649151","8H-ZNSD-WJN5","Reimbursement issued for lost or damaged package","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","113.31","113.31"
+"9 Mar 2022 5:09:31 am UTC","17251854272","Tax Withheld","","","TDS - Section 194-O - Tue Mar 08 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-12.70","0","0","0","0","-12.70"
+"9 Mar 2022 5:15:17 am UTC","17306019512","Tax Withheld","","","TDS - Section 194-O - Tue Mar 08 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-19.09","0","0","0","0","-19.09"
+"9 Mar 2022 8:39:47 am UTC","17306019512","Shipping Services
+","404-9651333-1263544","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-146.32","0","-146.32"
+"9 Mar 2022 8:54:42 am UTC","17306019512","Order
+","404-9651333-1263544","3Q-9W5Z-X2RP","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","Kolkata","WEST BENGAL","700033","292.37","0","0","52.63","0","0","-2.92","0","-56.99","0","-14.16","0","270.93"
+"10 Mar 2022 4:38:38 am UTC","17306019512","Tax Withheld","","","TDS - Section 194-O - Wed Mar 09 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-2.92","0","0","0","0","-2.92"
+"10 Mar 2022 9:35:57 am UTC","17320340392","Transfer
+","","","To account ending with: ","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","0","0","0","0","-795.49","-795.49"
+"10 Mar 2022 10:11:28 am UTC","17251854272","Shipping Services
+","407-9757836-6045924","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"10 Mar 2022 10:11:40 am UTC","17320340392","Shipping Services
+","406-8362949-4395507","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"10 Mar 2022 10:11:43 am UTC","17320340392","Shipping Services
+","408-9645627-9431506","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"10 Mar 2022 10:26:37 am UTC","17320340392","Order
+","408-9645627-9431506","QJ-BYLE-NHCY","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","2","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","NEW DELHI","DELHI","110007","2,540.68","0","0","457.32","0","0","-25.40","0","-530.65","0","-132.16","0","2,309.79"
+"10 Mar 2022 10:27:24 am UTC","17251854272","Order
+","407-9757836-6045924","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","BENGALURU","KARNATAKA","560057","237.14","0","0","11.86","0","0","-2.37","0","-5.88","0","-9.44","0","231.31"
+"10 Mar 2022 10:27:34 am UTC","17320340392","Order
+","406-8362949-4395507","RT-G1AB-5V7C","Comfitwear Disposable Latex Gloves, Powder-Free Size Large, 100 gloves per box","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","MUMBAI","MAHARASHTRA","400081","380.00","0","0","19.00","0","0","-3.80","0","-25.90","0","-14.16","0","355.14"
+"10 Mar 2022 10:28:09 am UTC","17320340392","Order
+","402-9220072-5893116","SW-9HK9-TDSJ","Pehel International | Plastic Disposable Gloves | for Cleaning, Kitchen, Garden, Sanitation & Other Daily uses, Transparent | 12 Inch | Set of 200 Pai","2","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","GURUGRAM","HARYANA","122018","422.04","0","0","75.96","0","0","-4.22","0","-11.75","-159.30","-18.88","0","303.85"
+"11 Mar 2022 4:56:50 am UTC","17293855272","Tax Withheld","","","TDS - Section 194-O - Thu Mar 10 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-2.37","0","0","0","0","-2.37"
+"11 Mar 2022 5:01:59 am UTC","17320340392","Tax Withheld","","","TDS - Section 194-O - Thu Mar 10 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-33.43","0","0","0","0","-33.43"
+"11 Mar 2022 9:04:52 am UTC","17320340392","Shipping Services
+","408-5550218-2620346","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"11 Mar 2022 9:05:28 am UTC","17320340392","Shipping Services
+","171-4887645-7009141","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"11 Mar 2022 9:20:49 am UTC","17320340392","Order
+","408-5550218-2620346","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","VARANASI","UTTAR PRADESH","221002","237.14","0","0","11.86","0","0","-2.37","0","-5.88","0","-9.44","0","231.31"
+"11 Mar 2022 9:21:07 am UTC","17320340392","Order
+","171-4887645-7009141","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","KOLKATA","WEST BENGAL","700074","237.14","0","0","11.86","0","0","-2.37","0","-5.88","0","-9.44","0","231.31"
+"11 Mar 2022 9:23:07 am UTC","17320340392","Order
+","406-3647146-1774749","AM-YQT8-F5EX","HEISHI Unisex Cotton Reusable Gloves (White, Set of 5 Pairs)","10","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","NAVI MUMBAI","MAHARASHTRA","410209","2,371.40","0","0","118.60","0","0","-23.70","0","-58.76","-271.40","-94.40","0","2,041.74"
+"11 Mar 2022 11:43:42 pm UTC","17293855272","Reimbursements","404-5775183-5079532","8H-ZNSD-WJN5","Reimbursement issued for lost or damaged package","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","113.31","113.31"
+"11 Mar 2022 11:48:14 pm UTC","17293855272","Reimbursements","404-2757423-1674756","MN-I1YT-KP5M","Reimbursement issued for lost or damaged package","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","574.02","574.02"
+"12 Mar 2022 5:21:48 am UTC","17320340392","Tax Withheld","","","TDS - Section 194-O - Fri Mar 11 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-28.46","0","0","0","0","-28.46"
+"12 Mar 2022 7:01:32 am UTC","17320340392","Refund
+","171-7885582-7382734","AM-YQT8-F5EX","HEISHI Unisex Cotton Reusable Gloves (White, Set of 5 Pairs)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","GURUGRAM","HARYANA","122002","-237.14","0","0","-11.86","0","0","2.37","0","4.70","0","9.44","0","-232.49"
+"12 Mar 2022 9:05:24 am UTC","17293855272","Shipping Services
+","404-1720756-2067507","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"12 Mar 2022 9:20:56 am UTC","17293855272","Order
+","404-1720756-2067507","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","3","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","MUMBAI","MAHARASHTRA","400026","711.42","0","0","35.58","0","0","-7.11","0","-17.64","0","-28.32","0","693.93"
+"12 Mar 2022 10:22:01 am UTC","17293855272","Order
+","408-5293348-9798742","AM-YQT8-F5EX","HEISHI Unisex Cotton Reusable Gloves (White, Set of 5 Pairs)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Amazon
+","BENGALURU","KARNATAKA","560035","237.14","0","0","11.86","0","0","-2.37","0","-5.88","-84.96","-9.44","0","146.35"
+"12 Mar 2022 10:22:03 am UTC","17320340392","Order
+","404-0411646-8623524","PA-RJWA-YYQR","Pehel International Dishcloth Cellulose Sponge Cloths, Eco-Friendly No Odor Reusable Cleaning Cloths for Kitchen - Absorbent Dish Cloth Hand Towel (As","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","NEW DELHI","DELHI","110021","253.39","0","0","45.61","0","0","-2.53","0","-7.06","-84.96","-14.16","0","190.29"
+"12 Mar 2022 10:39:57 am UTC","17293855272","Refund
+","408-4769156-7490707","QJ-BYLE-NHCY","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","TIPTUR","KARNATAKA","572201","-1,270.34","0","0","-228.66","0","0","12.70","0","212.26","0","66.08","0","-1,207.96"
+"12 Mar 2022 11:49:48 am UTC","17320340392","Refund
+","406-1072819-5708357","N8-0W4B-SDD8","SOFT HANDS Latex Medical Examination Gloves (White, Large)","3","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","CHENNAI","TAMIL NADU","600072","-934.83","0","0","-112.17","0","0","9.36","0","54.38","0","42.48","0","-940.78"
+"12 Mar 2022 3:02:46 pm UTC","17320340392","Refund
+","406-8362949-4395507","RT-G1AB-5V7C","Comfitwear Disposable Latex Gloves, Powder-Free Size Large, 100 gloves per box","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","MUMBAI","MAHARASHTRA","400081","-380.00","0","0","-19.00","0","0","3.80","0","20.72","0","14.16","0","-360.32"
+"13 Mar 2022 4:50:22 am UTC","17293855272","Tax Withheld","","","TDS - Section 194-O - Sat Mar 12 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-9.49","0","0","0","0","-9.49"
+"13 Mar 2022 5:16:01 am UTC","17320340392","Tax Withheld","","","TDS - Section 194-O - Sat Mar 12 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-2.53","0","0","0","0","-2.53"
+"13 Mar 2022 9:20:55 am UTC","17293855272","Shipping Services
+","407-6753498-8353143","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"13 Mar 2022 9:36:02 am UTC","17293855272","Order
+","407-6753498-8353143","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","SANKARI","TAMIL NADU","637301","237.14","0","0","11.86","0","0","-2.37","0","-5.88","0","-9.44","0","231.31"
+"13 Mar 2022 9:38:44 am UTC","17293855272","Order
+","406-5845564-8011553","C3-HD8B-8E2Y","Pehel International | Reusable Natural Latex Safety Gloves | for Washing, Cleaning, Kitchen, Garden, Sanitation & Other Daily uses, Yellow Color | Pac","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Amazon
+","DEHRADUN","UTTARAKHAND","248002","253.39","33.90","-33.90","45.61","0","0","-2.53","0","-7.06","-84.96","-14.16","0","190.29"
+"14 Mar 2022 5:06:12 am UTC","17293855272","Tax Withheld","","","TDS - Section 194-O - Sun Mar 13 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-4.91","0","0","0","0","-4.91"
+"14 Mar 2022 5:28:21 am UTC","17293855272","Refund
+","408-6356668-2657121","QJ-BYLE-NHCY","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","SIPCOT THOOTHUKUDI","TAMIL NADU","628008","-1,270.34","0","0","-228.66","0","0","12.70","0","265.32","0","66.08","0","-1,154.90"
+"14 Mar 2022 7:52:02 am UTC","17337328562","Transfer
+","","","To account ending with: ","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","0","0","0","0","-164.65","-164.65"
+"14 Mar 2022 9:13:38 am UTC","17337328562","Shipping Services
+","403-5998399-6244304","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-105.02","0","-105.02"
+"14 Mar 2022 9:13:51 am UTC","17337328562","Shipping Services
+","171-8755867-7109149","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"14 Mar 2022 9:14:02 am UTC","17293855272","Shipping Services
+","403-8613289-7299504","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"14 Mar 2022 9:29:15 am UTC","17293855272","Order
+","403-8613289-7299504","NM-8PT8-XDXF","Pehel International Black Bouffant Cap 100 Pcs","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","NEW DELHI","DELHI","110060","219.05","0","0","10.95","0","0","-2.19","0","-5.43","0","-9.44","0","212.94"
+"14 Mar 2022 9:29:17 am UTC","17337328562","Order
+","403-5998399-6244304","RN-8X3V-0GXK","PEHEL INTERNATIONAL | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All | (B","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","THANE","MAHARASHTRA","400610","507.63","0","0","91.37","0","0","-5.08","0","-98.95","0","-29.50","0","465.47"
+"14 Mar 2022 9:29:27 am UTC","17337328562","Order
+","171-8755867-7109149","NM-8PT8-XDXF","Pehel International Black Bouffant Cap 100 Pcs","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","ASANSOL","WEST BENGAL","713304","219.05","0","0","10.95","0","0","-2.19","0","-5.43","0","-9.44","0","212.94"
+"14 Mar 2022 9:30:04 am UTC","17337328562","Order
+","405-6343793-9733919","AM-YQT8-F5EX","HEISHI Unisex Cotton Reusable Gloves (White, Set of 5 Pairs)","3","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","BENGALURU","KARNATAKA","562157","711.42","0","0","35.58","0","0","-7.11","0","-17.63","-172.28","-28.32","0","521.66"
+"14 Mar 2022 9:33:26 am UTC","17293855272","Order
+","408-7366325-0226732","ZS-FS5A-UAB7","PEHEL INTERNATIONAL Safety Hand Gloves (White, 10 Pairs)","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Amazon
+","Bantawal","KARNATAKA","574211","758.10","76.20","-76.20","37.90","0","0","-7.58","0","-84.54","-97.94","-28.32","0","577.62"
+"15 Mar 2022 5:26:12 am UTC","17337328562","Tax Withheld","","","TDS - Section 194-O - Mon Mar 14 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-14.38","0","0","0","0","-14.38"
+"15 Mar 2022 5:36:36 am UTC","17293855272","Tax Withheld","","","TDS - Section 194-O - Mon Mar 14 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-9.77","0","0","0","0","-9.77"
+"15 Mar 2022 9:09:10 am UTC","17359545292","Shipping Services
+","403-7562600-5321930","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-146.32","0","-146.32"
+"15 Mar 2022 9:09:42 am UTC","17293855272","Shipping Services
+","402-8437408-2404358","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"15 Mar 2022 9:09:50 am UTC","17359545292","Shipping Services
+","407-2176335-4021139","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"15 Mar 2022 9:25:00 am UTC","17359545292","Order
+","407-2176335-4021139","UU-MH4Z-8VJU","Latex Medical Examination Disposable Hand Gloves, White, Large (Pack of 50 Pcs)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","HYDERABAD","TELANGANA","500083","141.96","0","0","17.04","0","0","-1.42","0","-3.75","0","-9.44","0","144.39"
+"15 Mar 2022 9:25:08 am UTC","17293855272","Order
+","402-8437408-2404358","RT-G1AB-5V7C","Comfitwear Disposable Latex Gloves, Powder-Free Size Large, 100 gloves per box","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","JHUMRI TILAIYA","JHARKHAND","825409","380.00","0","0","19.00","0","0","-3.80","0","-25.90","0","-14.16","0","355.14"
+"15 Mar 2022 9:25:26 am UTC","17359545292","Order
+","403-7562600-5321930","NN-CE3J-WII2","Pehel International ® Unisex Disposable Bouffant Cap (Blue) -100 Pieces","8","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","HYDERABAD","TELANGANA","500084","754.32","0","0","37.68","0","0","-7.52","0","-18.74","0","-75.52","0","690.22"
+"15 Mar 2022 9:26:01 am UTC","17359545292","Order
+","405-9822402-9035530","AM-YQT8-F5EX","HEISHI Unisex Cotton Reusable Gloves (White, Set of 5 Pairs)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","VARANASI","UTTAR PRADESH","221002","237.14","0","0","11.86","0","0","-2.37","0","-5.88","-84.96","-9.44","0","146.35"
+"15 Mar 2022 9:26:46 am UTC","17359545292","Order
+","402-9726201-3822755","C3-HD8B-8E2Y","Pehel International | Reusable Natural Latex Safety Gloves | for Washing, Cleaning, Kitchen, Garden, Sanitation & Other Daily uses, Yellow Color | Pac","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","BAREILLY","UTTAR PRADESH","243003","253.39","33.90","-33.90","45.61","0","0","-2.53","0","-7.06","-84.96","-14.16","0","190.29"
+"15 Mar 2022 9:53:46 am UTC","17359545292","Transfer
+","","","To account ending with: ","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","0","0","0","0","-134.16","-134.16"
+"16 Mar 2022 1:11:19 am UTC","17359545292","Refund
+","171-8434109-8121918","C3-HD8B-8E1Y","Pehel International ® Reusable Natural Latex Safety Gloves for Washing, Cleaning, Kitchen, Garden, Sanitation & Daily uses, Yellow - Set of 2 Pair.","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","KUMARAPURAM","KERALA","690514","0","-35.71","0","-4.29","0","0","0.36","0","0","40.00","0","0","0.36"
+"16 Mar 2022 4:41:35 am UTC","17293855272","Tax Withheld","","","TDS - Section 194-O - Tue Mar 15 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-3.80","0","0","0","0","-3.80"
+"16 Mar 2022 5:16:28 am UTC","17359545292","Tax Withheld","","","TDS - Section 194-O - Tue Mar 15 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-13.87","0","0","0","0","-13.87"
+"16 Mar 2022 9:01:21 am UTC","17359545292","Shipping Services
+","404-6174676-2568365","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"16 Mar 2022 9:01:24 am UTC","17293855272","Shipping Services
+","402-0511508-6086740","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"16 Mar 2022 9:01:38 am UTC","17293855272","Shipping Services
+","402-9844199-5005909","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"16 Mar 2022 9:01:48 am UTC","17359545292","Shipping Services
+","407-6694866-1914745","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"16 Mar 2022 9:01:51 am UTC","17359545292","Shipping Services
+","402-7342546-0482708","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"16 Mar 2022 9:02:04 am UTC","17359545292","Shipping Services
+","171-2787110-3107524","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"16 Mar 2022 9:09:43 am UTC","17359545292","Shipping Services
+","171-9838176-6100357","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"16 Mar 2022 9:17:02 am UTC","17359545292","Order
+","171-2787110-3107524","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","JAIPUR","RAJASTHAN","302039","237.14","0","0","11.86","0","0","-2.37","0","-5.88","0","-9.44","0","231.31"
+"16 Mar 2022 9:17:04 am UTC","17293855272","Order
+","402-9844199-5005909","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","3","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","RAIPUR","CHHATTISGARH","492001","711.42","0","0","35.58","0","0","-7.11","0","-17.64","0","-28.32","0","693.93"
+"16 Mar 2022 9:17:08 am UTC","17359545292","Order
+","404-6174676-2568365","WS-X25N-FBML","Wellness Pulse Respirometer Three Ball Deep Breathing Lung Exerciser for Adults, White, Pack of 1.","2","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","KOLKATA","WEST BENGAL","700027","361.90","0","0","18.10","0","0","-3.62","0","-8.97","0","-18.88","0","348.53"
+"16 Mar 2022 9:17:25 am UTC","17359545292","Order
+","407-6694866-1914745","0N-KC8L-FR5J","Safety Products Net Reflective Jacket (Green, 2"" Radium Type, Medium)","12","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","Narasapura Industrial Area","KARNATAKA","563133","739.32","0","0","88.68","0","0","-7.44","0","-19.61","0","-113.28","0","687.67"
+"16 Mar 2022 9:17:41 am UTC","17359545292","Order
+","402-7342546-0482708","8H-ZNSD-WJN5","Pehel International resuable and washable Sponge Wipes with super absorbant biodegradable cellulose material for kitchen and home cleaning (Multicolor","2","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","BENGALURU","KARNATAKA","560001","252.54","0","0","45.46","0","0","-2.52","0","-7.03","0","-18.88","0","269.57"
+"16 Mar 2022 9:17:50 am UTC","17293855272","Order
+","402-0511508-6086740","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","COIMBATORE","TAMIL NADU","641014","237.14","0","0","11.86","0","0","-2.37","0","-5.88","0","-9.44","0","231.31"
+"16 Mar 2022 9:25:48 am UTC","17359545292","Order
+","171-9838176-6100357","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","JAIPUR","RAJASTHAN","302039","237.14","0","0","11.86","0","0","-2.37","0","-5.88","0","-9.44","0","231.31"
+"16 Mar 2022 9:32:03 am UTC","17293855272","Order
+","171-1623800-7994756","C3-HD8B-8E1Y","Pehel International ® Reusable Natural Latex Safety Gloves for Washing, Cleaning, Kitchen, Garden, Sanitation & Daily uses, Yellow - Set of 2 Pair.","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Amazon
+","NEW DELHI","DELHI","110024","177.68","0","0","21.32","0","0","-1.78","0","-4.70","-84.96","-9.44","0","98.12"
+"17 Mar 2022 4:42:05 am UTC","17359545292","Tax Withheld","","","TDS - Section 194-O - Wed Mar 16 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-18.28","0","0","0","0","-18.28"
+"17 Mar 2022 5:10:53 am UTC","17293855272","Tax Withheld","","","TDS - Section 194-O - Wed Mar 16 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-11.26","0","0","0","0","-11.26"
+"17 Mar 2022 8:56:02 am UTC","17293855272","Shipping Services
+","404-6628185-8625958","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"17 Mar 2022 8:56:02 am UTC","17293855272","Shipping Services
+","171-0869126-6693939","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"17 Mar 2022 8:56:31 am UTC","17359545292","Shipping Services
+","407-9469868-7137914","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"17 Mar 2022 8:56:54 am UTC","17359545292","Shipping Services
+","406-1148828-6117963","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"17 Mar 2022 9:11:17 am UTC","17359545292","Shipping Services
+","171-2682429-2645117","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"17 Mar 2022 9:11:41 am UTC","17293855272","Order
+","404-6628185-8625958","KT-YR1D-ZWC8","SurgiMax Latex Examination Gloves 100 Pcs Box (Medium)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","PONDICHERRY","PUDUCHERRY","605005","332.38","0","0","16.62","0","0","-3.32","0","-32.95","0","-14.16","0","298.57"
+"17 Mar 2022 9:11:52 am UTC","17359545292","Shipping Services
+","404-9893331-3973929","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"17 Mar 2022 9:12:08 am UTC","17293855272","Shipping Services
+","405-8366413-7425952","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"17 Mar 2022 9:12:11 am UTC","17359545292","Order
+","407-9469868-7137914","5E-I40E-UGAC","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","2","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","KOLKATA","WEST BENGAL","700055","415.26","0","0","74.74","0","0","-4.16","0","-11.56","0","-18.88","0","455.40"
+"17 Mar 2022 9:12:15 am UTC","17359545292","Order
+","406-1148828-6117963","KT-YR1D-ZWC8","SurgiMax Latex Examination Gloves 100 Pcs Box (Medium)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","CHENNAI","TAMIL NADU","601203","332.38","0","0","16.62","0","0","-3.32","0","-32.95","0","-14.16","0","298.57"
+"17 Mar 2022 9:12:21 am UTC","17293855272","Order
+","171-0869126-6693939","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","MUMBAI","MAHARASHTRA","400028","237.14","0","0","11.86","0","0","-2.37","0","-5.88","0","-9.44","0","231.31"
+"17 Mar 2022 9:27:25 am UTC","17359545292","Order
+","171-2682429-2645117","X2-Z9Q9-D8NB","Crown Pharma - Deep Breathing Lung Exerciser - 3 Balls Incentive Spirometer, White for Adults, Pack of 1.","2","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","GURUGRAM","HARYANA","122003","353.58","0","0","42.42","0","0","-3.54","0","-9.35","0","-18.88","0","364.23"
+"17 Mar 2022 9:27:45 am UTC","17359545292","Order
+","404-9893331-3973929","RT-G1AB-5V7C","Comfitwear Disposable Latex Gloves, Powder-Free Size Large, 100 gloves per box","2","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","CHENNAI","TAMIL NADU","600028","760.00","0","0","38.00","0","0","-7.60","0","-51.80","0","-28.32","0","710.28"
+"17 Mar 2022 9:27:47 am UTC","17293855272","Order
+","405-8366413-7425952","NM-8PT8-XDXF","Pehel International Black Bouffant Cap 100 Pcs","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","COIMBATORE-641014","TAMIL NADU","641014","438.10","0","0","21.90","0","0","-4.38","0","-10.86","0","-18.88","0","425.88"
+"18 Mar 2022 4:58:41 am UTC","17342365002","Tax Withheld","","","TDS - Section 194-O - Thu Mar 17 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-10.08","0","0","0","0","-10.08"
+"18 Mar 2022 5:21:07 am UTC","17359545292","Tax Withheld","","","TDS - Section 194-O - Thu Mar 17 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-18.61","0","0","0","0","-18.61"
+"18 Mar 2022 6:24:08 am UTC","17359545292","Shipping Services
+","406-6649481-5077150","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"18 Mar 2022 6:24:11 am UTC","17342365002","Shipping Services
+","406-4685225-6524342","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"18 Mar 2022 6:24:15 am UTC","17359545292","Shipping Services
+","171-6230055-9322704","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"18 Mar 2022 6:24:18 am UTC","17359545292","Shipping Services
+","406-3604962-2880319","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-47.20","0","-47.20"
+"18 Mar 2022 6:24:18 am UTC","17342365002","Shipping Services
+","171-7498998-5308326","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-47.20","0","-47.20"
+"18 Mar 2022 6:24:18 am UTC","17359545292","Shipping Services
+","402-4243685-1296307","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"18 Mar 2022 6:24:33 am UTC","17342365002","Shipping Services
+","402-9485240-5757920","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"18 Mar 2022 6:24:52 am UTC","17342365002","Shipping Services
+","403-3576180-7255530","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"18 Mar 2022 6:24:56 am UTC","17342365002","Shipping Services
+","403-9288794-2237909","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"18 Mar 2022 6:39:52 am UTC","17359545292","Order
+","402-4243685-1296307","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","GURGAON","HARYANA","122002","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"18 Mar 2022 6:39:56 am UTC","17359545292","Order
+","406-3604962-2880319","UU-MH4Z-8VJU","Latex Medical Examination Disposable Hand Gloves, White, Large (Pack of 50 Pcs)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","AHMEDABAD","GUJARAT","382426","141.96","0","0","17.04","-0.71","-0.71","0","0","-3.75","0","-9.44","0","144.39"
+"18 Mar 2022 6:39:59 am UTC","17342365002","Order
+","402-9485240-5757920","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","PUDUPATTINAM","TAMIL NADU","603102","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"18 Mar 2022 6:40:02 am UTC","17342365002","Order
+","406-4685225-6524342","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","TIRUCHIRAPPALLI","TAMIL NADU","620004","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"18 Mar 2022 6:40:05 am UTC","17342365002","Order
+","403-3576180-7255530","3B-SEE4-QY9J","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","MYSURU","KARNATAKA","570019","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"18 Mar 2022 6:40:06 am UTC","17342365002","Order
+","171-7498998-5308326","W4-BCML-II6W","Pehel International Unisex Cotton Reusable Gloves Ideal for Gardening, Kitchen and Daily Routine Activities (White, Set of 10 Pairs)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","AHMEDABAD","GUJARAT","382415","380.00","0","0","19.00","-1.90","-1.90","0","0","-42.37","0","-14.16","0","338.67"
+"18 Mar 2022 6:40:22 am UTC","17342365002","Order
+","403-9288794-2237909","3Q-9W5Z-X2RP","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","JIND","HARYANA","126102","292.37","0","0","52.63","0","0","-2.92","0","-56.99","0","-14.16","0","270.93"
+"18 Mar 2022 6:40:31 am UTC","17359545292","Order
+","406-6649481-5077150","3B-SEE4-QY9J","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","3","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","CHENNAI","TAMIL NADU","600078","741.96","0","0","89.04","0","0","-7.41","0","-19.62","0","-42.48","0","761.49"
+"18 Mar 2022 6:40:38 am UTC","17359545292","Order
+","171-6230055-9322704","NM-8PT8-XDXF","Pehel International Black Bouffant Cap 100 Pcs","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","kolkata","WEST BENGAL","700078","219.05","0","0","10.95","0","0","-2.19","0","-5.43","0","-9.44","0","212.94"
+"18 Mar 2022 7:08:00 am UTC","17342365002","Shipping Services
+","404-3930026-4371550","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"18 Mar 2022 7:23:16 am UTC","17342365002","Order
+","404-3930026-4371550","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","GUNTUR","ANDHRA PRADESH","522007","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"18 Mar 2022 7:56:45 am UTC","17342365002","Shipping Services
+","408-2429250-8425166","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"18 Mar 2022 8:12:00 am UTC","17342365002","Order
+","408-2429250-8425166","3B-SEE4-QY9J","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","PALACOLE","ANDHRA PRADESH","534260","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"18 Mar 2022 8:02:34 pm UTC","17359545292","Refund
+","403-7562600-5321930","NN-CE3J-WII2","Pehel International ® Unisex Disposable Bouffant Cap (Blue) -100 Pieces","8","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","HYDERABAD","TELANGANA","500084","-754.32","0","0","-37.68","0","0","7.52","0","14.99","0","75.52","0","-693.97"
+"19 Mar 2022 3:05:34 am UTC","17342365002","Reimbursements","403-1012982-0871513","0N-KC8L-FR5J","Reimbursement issued for lost or damaged package","12","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","404.33","404.33"
+"19 Mar 2022 3:07:49 am UTC","17342365002","Reimbursements","408-0410830-0668336","JG-L67I-52WR","Reimbursement issued for lost or damaged package","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","199.54","199.54"
+"19 Mar 2022 3:22:40 am UTC","17342365002","Reimbursements","405-7096641-6246761","8H-ZNSD-WJN5","Reimbursement issued for lost or damaged package","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","113.31","113.31"
+"19 Mar 2022 4:46:41 am UTC","17359545292","Tax Withheld","","","TDS - Section 194-O - Fri Mar 18 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-13.50","0","0","0","0","-13.50"
+"19 Mar 2022 4:51:14 am UTC","17342365002","Tax Withheld","","","TDS - Section 194-O - Fri Mar 18 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-19.09","0","0","0","0","-19.09"
+"19 Mar 2022 8:04:44 am UTC","17359545292","Refund
+","407-2176335-4021139","UU-MH4Z-8VJU","Latex Medical Examination Disposable Hand Gloves, White, Large (Pack of 50 Pcs)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","HYDERABAD","TELANGANA","500083","-141.96","0","0","-17.04","0","0","1.42","0","2.99","0","9.44","0","-145.15"
+"19 Mar 2022 8:54:44 am UTC","17342365002","Shipping Services
+","403-0028088-9667578","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"19 Mar 2022 8:54:47 am UTC","17342365002","Shipping Services
+","403-3178149-5254716","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"19 Mar 2022 8:54:47 am UTC","17359545292","Shipping Services
+","405-5216574-0153943","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"19 Mar 2022 8:54:51 am UTC","17359545292","Shipping Services
+","171-0538695-4448339","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"19 Mar 2022 8:54:54 am UTC","17359545292","Shipping Services
+","402-1985200-5319511","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"19 Mar 2022 8:55:00 am UTC","17342365002","Shipping Services
+","408-1100779-3621141","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"19 Mar 2022 8:55:03 am UTC","17359545292","Shipping Services
+","403-3037641-8782758","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-80.24","0","-80.24"
+"19 Mar 2022 8:55:03 am UTC","17359545292","Shipping Services
+","171-3720806-3320357","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-80.24","0","-80.24"
+"19 Mar 2022 8:55:06 am UTC","17359545292","Shipping Services
+","406-6966126-6174759","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"19 Mar 2022 8:55:06 am UTC","17359545292","Shipping Services
+","408-4795909-7037118","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"19 Mar 2022 8:55:06 am UTC","17359545292","Shipping Services
+","405-1536397-7535546","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-80.24","0","-80.24"
+"19 Mar 2022 8:55:10 am UTC","17342365002","Shipping Services
+","403-8043523-4892305","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-80.24","0","-80.24"
+"19 Mar 2022 8:55:16 am UTC","17359545292","Shipping Services
+","403-7408413-4615531","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-80.24","0","-80.24"
+"19 Mar 2022 8:55:16 am UTC","17359545292","Shipping Services
+","403-3620831-3909916","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"19 Mar 2022 8:55:22 am UTC","17359545292","Shipping Services
+","406-8319063-7755535","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"19 Mar 2022 8:55:22 am UTC","17342365002","Shipping Services
+","402-6548955-8737968","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"19 Mar 2022 8:55:25 am UTC","17359545292","Shipping Services
+","403-6678830-3827515","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"19 Mar 2022 8:55:26 am UTC","17342365002","Shipping Services
+","406-7877491-6977133","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"19 Mar 2022 8:55:32 am UTC","17359545292","Shipping Services
+","404-9387714-3505163","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"19 Mar 2022 8:55:38 am UTC","17359545292","Shipping Services
+","406-9416552-1146727","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"19 Mar 2022 8:55:39 am UTC","17342365002","Shipping Services
+","406-1626413-0274726","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-80.24","0","-80.24"
+"19 Mar 2022 8:55:39 am UTC","17342365002","Shipping Services
+","171-5646951-2360361","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"19 Mar 2022 9:10:53 am UTC","17359545292","Order
+","406-6966126-6174759","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","MUMBAI","MAHARASHTRA","400101","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"19 Mar 2022 9:10:57 am UTC","17342365002","Order
+","403-3178149-5254716","3B-SEE4-QY9J","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","MARKAPUR","ANDHRA PRADESH","523316","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"19 Mar 2022 9:11:00 am UTC","17359545292","Order
+","171-0538695-4448339","3B-SEE4-QY9J","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","CHENNAI","TAMIL NADU","600087","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"19 Mar 2022 9:11:06 am UTC","17342365002","Order
+","171-5646951-2360361","3B-SEE4-QY9J","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","CHENNAI","TAMIL NADU","600018","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"19 Mar 2022 9:11:09 am UTC","17359545292","Order
+","408-4795909-7037118","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","KALYAN(W)","MAHARASHTRA","421301","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"19 Mar 2022 9:11:13 am UTC","17342365002","Order
+","406-7877491-6977133","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","POOTHAKKULAM, Kollam","KERALA","691302","246.43","0","0","29.57","0","0","-2.46","0","-6.51","0","-14.16","0","252.87"
+"19 Mar 2022 9:11:15 am UTC","17359545292","Order
+","406-8319063-7755535","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","KANCHEEPURAM","TAMIL NADU","603310","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"19 Mar 2022 9:11:18 am UTC","17359545292","Order
+","405-1536397-7535546","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","RATNAGIRI","MAHARASHTRA","415616","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"19 Mar 2022 9:11:22 am UTC","17359545292","Order
+","171-3720806-3320357","3B-SEE4-QY9J","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","Nagpur","MAHARASHTRA","440009","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"19 Mar 2022 9:11:25 am UTC","17359545292","Order
+","403-3620831-3909916","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","MALUR","KARNATAKA","563130","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"19 Mar 2022 9:11:28 am UTC","17359545292","Order
+","403-7408413-4615531","3B-SEE4-QY9J","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","NAGPUR","MAHARASHTRA","440014","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"19 Mar 2022 9:11:31 am UTC","17359545292","Order
+","403-3037641-8782758","3B-SEE4-QY9J","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","MUMBAI","MAHARASHTRA","400005","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"19 Mar 2022 9:11:34 am UTC","17359545292","Order
+","403-6678830-3827515","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","Tehsil Ghumarwin, Distt BILASPUR","HIMACHAL PRADESH","174027","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"19 Mar 2022 9:11:34 am UTC","17359545292","Order
+","404-9387714-3505163","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","Kota","RAJASTHAN","313001","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"19 Mar 2022 9:11:37 am UTC","17359545292","Order
+","405-5216574-0153943","3B-SEE4-QY9J","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","EAST GODAVARI","ANDHRA PRADESH","533255","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"19 Mar 2022 9:11:37 am UTC","17359545292","Order
+","402-1985200-5319511","3B-SEE4-QY9J","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","VILATHIKULAM","TAMIL NADU","628907","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"19 Mar 2022 9:11:40 am UTC","17342365002","Order
+","402-6548955-8737968","8H-ZNSD-WJN5","Pehel International resuable and washable Sponge Wipes with super absorbant biodegradable cellulose material for kitchen and home cleaning (Multicolor","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","MANGALURU","KARNATAKA","575015","252.54","0","0","45.46","0","0","-2.52","0","-7.03","0","-18.88","0","269.57"
+"19 Mar 2022 9:11:41 am UTC","17359545292","Order
+","406-9416552-1146727","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","MUMBAI","MAHARASHTRA","400064","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"19 Mar 2022 9:11:43 am UTC","17342365002","Order
+","403-0028088-9667578","3B-SEE4-QY9J","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","BHUBANESWAR","ODISHA","751031","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"19 Mar 2022 9:11:50 am UTC","17342365002","Order
+","408-1100779-3621141","3B-SEE4-QY9J","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","CHENNAI","TAMIL NADU","600020","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"19 Mar 2022 9:11:50 am UTC","17342365002","Order
+","403-8043523-4892305","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","NAGPUR","MAHARASHTRA","440013","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"19 Mar 2022 9:11:53 am UTC","17342365002","Order
+","406-1626413-0274726","3B-SEE4-QY9J","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","LATUR","MAHARASHTRA","413512","247.32","0","0","29.68","0","0","-2.47","0","-6.54","0","-14.16","0","253.83"
+"20 Mar 2022 4:53:16 am UTC","17359545292","Tax Withheld","","","TDS - Section 194-O - Sat Mar 19 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-34.62","0","0","0","0","-34.62"
+"20 Mar 2022 5:23:47 am UTC","17342365002","Tax Withheld","","","TDS - Section 194-O - Sat Mar 19 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-19.83","0","0","0","0","-19.83"
+"20 Mar 2022 8:41:00 am UTC","17342365002","Shipping Services
+","171-9089630-4548338","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"20 Mar 2022 8:41:01 am UTC","17359545292","Shipping Services
+","407-7565894-1204366","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"20 Mar 2022 8:41:13 am UTC","17359545292","Shipping Services
+","407-1762534-6800364","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"20 Mar 2022 8:41:22 am UTC","17342365002","Shipping Services
+","404-7860690-4665926","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"20 Mar 2022 8:41:29 am UTC","17359545292","Shipping Services
+","406-7555202-5023532","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"20 Mar 2022 8:41:32 am UTC","17359545292","Shipping Services
+","402-3504245-4173962","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"20 Mar 2022 8:41:32 am UTC","17359545292","Shipping Services
+","171-1199149-0337130","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-80.24","0","-80.24"
+"20 Mar 2022 8:41:35 am UTC","17342365002","Shipping Services
+","404-4056919-5060308","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"20 Mar 2022 8:41:38 am UTC","17342365002","Shipping Services
+","408-9261352-2820317","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"20 Mar 2022 8:41:45 am UTC","17359545292","Shipping Services
+","408-0239259-1095516","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"20 Mar 2022 8:41:48 am UTC","17359545292","Shipping Services
+","171-8198364-4253951","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"20 Mar 2022 8:41:51 am UTC","17359545292","Shipping Services
+","405-3569857-0813153","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"20 Mar 2022 8:41:51 am UTC","17359545292","Shipping Services
+","171-1003432-1553169","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-80.24","0","-80.24"
+"20 Mar 2022 8:41:58 am UTC","17359545292","Shipping Services
+","402-4030053-3651539","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"20 Mar 2022 8:56:41 am UTC","17359545292","Order
+","407-7565894-1204366","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","8","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","HYDERABAD","TELANGANA","500001","1,971.44","0","0","236.56","0","0","-19.68","0","-52.11","0","-113.28","0","2,022.93"
+"20 Mar 2022 8:56:41 am UTC","17359545292","Order
+","171-1199149-0337130","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","MUMBAI","MAHARASHTRA","400066","246.43","0","0","29.57","0","0","-2.46","0","-6.51","0","-14.16","0","252.87"
+"20 Mar 2022 8:56:46 am UTC","17342365002","Order
+","408-9261352-2820317","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","Lucknow","UTTAR PRADESH","226028","246.43","0","0","29.57","0","0","-2.46","0","-6.51","0","-14.16","0","252.87"
+"20 Mar 2022 8:56:51 am UTC","17359545292","Order
+","407-1762534-6800364","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","TIRUPATI","ANDHRA PRADESH","517501","246.43","0","0","29.57","0","0","-2.46","0","-6.51","0","-14.16","0","252.87"
+"20 Mar 2022 8:56:52 am UTC","17342365002","Order
+","404-7860690-4665926","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","BENGALURU","KARNATAKA","560008","492.86","0","0","59.14","0","0","-4.92","0","-13.03","0","-28.32","0","505.73"
+"20 Mar 2022 8:56:54 am UTC","17359545292","Order
+","171-1003432-1553169","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","MUMBAI","MAHARASHTRA","400026","246.43","0","0","29.57","0","0","-2.46","0","-6.51","0","-14.16","0","252.87"
+"20 Mar 2022 8:56:54 am UTC","17359545292","Order
+","171-8198364-4253951","QR-WRTB-87SX","CARE-X Latex Medical Examination Disposable Hand Gloves (White, Medium)- 50 Pieces Per Box","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","DIBRUGARH","ASSAM","786002","246.67","0","0","12.33","0","0","-2.47","0","-6.11","0","-14.16","0","236.26"
+"20 Mar 2022 8:56:57 am UTC","17359545292","Order
+","406-7555202-5023532","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","Nagpur","MAHARASHTRA","441108","246.43","0","0","29.57","0","0","-2.46","0","-6.51","0","-14.16","0","252.87"
+"20 Mar 2022 8:56:58 am UTC","17342365002","Order
+","404-4056919-5060308","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","BENGALURU","KARNATAKA","560021","246.43","0","0","29.57","0","0","-2.46","0","-6.51","0","-14.16","0","252.87"
+"20 Mar 2022 8:57:07 am UTC","17359545292","Order
+","402-3504245-4173962","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","KOLKATA","WEST BENGAL","700037","246.43","0","0","29.57","0","0","-2.46","0","-6.51","0","-14.16","0","252.87"
+"20 Mar 2022 8:57:13 am UTC","17359545292","Order
+","408-0239259-1095516","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","BHILAI","CHHATTISGARH","490006","246.43","0","0","29.57","0","0","-2.46","0","-6.51","0","-14.16","0","252.87"
+"20 Mar 2022 8:57:13 am UTC","17359545292","Order
+","405-3569857-0813153","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","BENGALURU","KARNATAKA","560049","246.43","0","0","29.57","0","0","-2.46","0","-6.51","0","-14.16","0","252.87"
+"20 Mar 2022 8:57:21 am UTC","17342365002","Order
+","171-9089630-4548338","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","VELLORE","TAMIL NADU","632006","246.43","0","0","29.57","0","0","-2.46","0","-6.51","0","-14.16","0","252.87"
+"20 Mar 2022 8:57:23 am UTC","17359545292","Order
+","402-4030053-3651539","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","Kolhapur","MAHARASHTRA","416003","246.43","0","0","29.57","0","0","-2.46","0","-6.51","0","-14.16","0","252.87"
+"20 Mar 2022 8:53:58 pm UTC","17359545292","Refund
+","404-9387714-3505163","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","Kota","RAJASTHAN","313001","-247.32","0","0","-29.68","0","0","2.47","0","6.54","0","14.16","0","-253.83"
+"21 Mar 2022 4:40:54 am UTC","17366956882","Tax Withheld","","","TDS - Section 194-O - Sun Mar 20 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-41.90","0","0","0","0","-41.90"
+"21 Mar 2022 4:41:52 am UTC","17342365002","Tax Withheld","","","TDS - Section 194-O - Sun Mar 20 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-12.32","0","0","0","0","-12.32"
+"21 Mar 2022 4:44:20 am UTC","17366956882","Transfer
+","","","To account ending with: ","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","0","0","0","0","-3,081.54","-3,081.54"
+"21 Mar 2022 8:56:19 am UTC","17342365002","Shipping Services
+","405-8920007-1741940","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"21 Mar 2022 8:56:23 am UTC","17366956882","Shipping Services
+","406-4070135-7121958","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"21 Mar 2022 8:56:26 am UTC","17342365002","Shipping Services
+","403-9465081-4265961","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-80.24","0","-80.24"
+"21 Mar 2022 8:56:26 am UTC","17366956882","Shipping Services
+","404-2153955-9305942","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"21 Mar 2022 8:56:30 am UTC","17366956882","Shipping Services
+","402-0514186-3256302","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"21 Mar 2022 8:56:40 am UTC","17366956882","Shipping Services
+","403-6486546-8393948","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"21 Mar 2022 8:56:43 am UTC","17342365002","Shipping Services
+","407-5542311-1249953","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"21 Mar 2022 8:56:48 am UTC","17366956882","Shipping Services
+","404-2293906-8775542","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"21 Mar 2022 8:57:09 am UTC","17366956882","Shipping Services
+","406-1602363-8345101","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"21 Mar 2022 9:11:55 am UTC","17342365002","Order
+","407-5542311-1249953","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","West godavari NARASAPUR","ANDHRA PRADESH","534275","246.43","0","0","29.57","0","0","-2.46","0","-6.51","0","-14.16","0","252.87"
+"21 Mar 2022 9:12:12 am UTC","17342365002","Order
+","403-9465081-4265961","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","INDORE","MADHYA PRADESH","452001","246.43","0","0","29.57","0","0","-2.46","0","-6.51","0","-14.16","0","252.87"
+"21 Mar 2022 9:12:15 am UTC","17366956882","Order
+","406-1602363-8345101","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","Kotagiri","TAMIL NADU","643217","246.43","0","0","29.57","0","0","-2.46","0","-6.51","0","-14.16","0","252.87"
+"21 Mar 2022 9:12:22 am UTC","17366956882","Order
+","403-6486546-8393948","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","malappuram","kerala","679584","246.43","0","0","29.57","0","0","-2.46","0","-6.51","0","-14.16","0","252.87"
+"21 Mar 2022 9:12:22 am UTC","17366956882","Order
+","404-2153955-9305942","3Q-9W5Z-X2RP","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","Guwahati","Assam","781038","292.37","0","0","52.63","0","0","-2.92","0","-56.99","0","-14.16","0","270.93"
+"21 Mar 2022 9:12:26 am UTC","17366956882","Order
+","406-4070135-7121958","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","Kalasapadu","ANDHRA PRADESH","516217","246.43","0","0","29.57","0","0","-2.46","0","-6.51","0","-14.16","0","252.87"
+"21 Mar 2022 9:12:29 am UTC","17342365002","Order
+","408-2338630-7500355","C3-HD8B-8E2Y","Pehel International | Reusable Natural Latex Safety Gloves | for Washing, Cleaning, Kitchen, Garden, Sanitation & Other Daily uses, Yellow Color | Pac","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Amazon
+","BAREILLY","UTTAR PRADESH","243003","0","0","0","0","0","0","0","0","0","0","0","0","0"
+"21 Mar 2022 9:12:30 am UTC","17342365002","Order
+","405-8920007-1741940","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","MUMBAI","MAHARASHTRA","400058","246.43","0","0","29.57","0","0","-2.46","0","-6.51","0","-14.16","0","252.87"
+"21 Mar 2022 9:12:46 am UTC","17366956882","Order
+","402-0514186-3256302","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","2","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","THANE","MAHARASHTRA","401107","492.86","0","0","59.14","0","0","-4.92","0","-13.03","0","-28.32","0","505.73"
+"21 Mar 2022 9:13:03 am UTC","17366956882","Order
+","404-2293906-8775542","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","3","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","BENGALURU","KARNATAKA","560094","739.29","0","0","88.71","0","0","-7.38","0","-19.54","0","-42.48","0","758.60"
+"21 Mar 2022 10:42:57 am UTC","17366956882","Refund
+","407-6694866-1914745","0N-KC8L-FR5J","Safety Products Net Reflective Jacket (Green, 2"" Radium Type, Medium)","12","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","Narasapura Industrial Area","KARNATAKA","563133","-739.32","0","0","-88.68","0","0","7.44","0","15.69","0","113.28","0","-691.59"
+"21 Mar 2022 12:03:17 pm UTC","17366956882","Refund
+","405-9822402-9035530","AM-YQT8-F5EX","HEISHI Unisex Cotton Reusable Gloves (White, Set of 5 Pairs)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","VARANASI","UTTAR PRADESH","221002","-237.14","0","0","-11.86","0","0","2.37","0","4.70","0","9.44","0","-232.49"
+"21 Mar 2022 3:42:49 pm UTC","17366956882","Refund
+","171-2682429-2645117","X2-Z9Q9-D8NB","Crown Pharma - Deep Breathing Lung Exerciser - 3 Balls Incentive Spirometer, White for Adults, Pack of 1.","2","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","GURUGRAM","HARYANA","122003","-353.58","0","0","-42.42","0","0","3.54","0","7.49","0","18.88","0","-366.09"
+"22 Mar 2022 1:27:05 am UTC","17342365002","Adjustment
+","","","Other","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","0","-13,574.72","-13,574.72"
+"22 Mar 2022 5:12:34 am UTC","17342365002","Tax Withheld","","","TDS - Section 194-O - Mon Mar 21 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-7.39","0","0","0","0","-7.39"
+"22 Mar 2022 5:35:24 am UTC","17366956882","Tax Withheld","","","TDS - Section 194-O - Mon Mar 21 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-22.64","0","0","0","0","-22.64"
+"22 Mar 2022 7:37:23 am UTC","17366956882","Refund
+","403-5888634-4111510","QJ-BYLE-NHCY","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","UPPER TADONG","SIKKIM","737102","-1,270.34","0","0","-228.66","0","0","12.70","0","212.26","0","66.08","0","-1,207.96"
+"22 Mar 2022 9:01:57 am UTC","17366956882","Shipping Services
+","408-5854604-4117947","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"22 Mar 2022 9:02:08 am UTC","17366956882","Shipping Services
+","403-8853768-1424330","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"22 Mar 2022 9:02:11 am UTC","17366956882","Shipping Services
+","407-5628791-1681136","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"22 Mar 2022 9:02:19 am UTC","17366956882","Shipping Services
+","406-5906969-7093162","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"22 Mar 2022 9:02:26 am UTC","17366956882","Shipping Services
+","407-1275871-5630752","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"22 Mar 2022 9:02:29 am UTC","17366956882","Shipping Services
+","403-4242440-0243541","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"22 Mar 2022 9:02:43 am UTC","17366956882","Shipping Services
+","407-6154970-4095516","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"22 Mar 2022 9:04:11 am UTC","17342365002","Shipping Services
+","406-0178926-0147503","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"22 Mar 2022 9:10:58 am UTC","17366956882","Shipping Services
+","403-3825767-9138759","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"22 Mar 2022 9:11:01 am UTC","17342365002","Shipping Services
+","406-1867446-2311569","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"22 Mar 2022 9:11:18 am UTC","17366956882","Shipping Services
+","406-2654370-7753143","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"22 Mar 2022 9:17:34 am UTC","17366956882","Order
+","407-5628791-1681136","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","MUMBAI","MAHARASHTRA","400064","245.54","0","0","29.46","0","0","-2.46","0","-6.49","0","-14.16","0","251.89"
+"22 Mar 2022 9:17:50 am UTC","17366956882","Order
+","403-4242440-0243541","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","TIRUCHIRAPPALLI","TAMIL NADU","620102","245.54","0","0","29.46","0","0","-2.46","0","-6.49","0","-14.16","0","251.89"
+"22 Mar 2022 9:17:50 am UTC","17366956882","Order
+","403-8853768-1424330","WS-X25N-FBML","Wellness Pulse Respirometer Three Ball Deep Breathing Lung Exerciser for Adults, White, Pack of 1.","2","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","NEW DELHI","DELHI","110080","360.00","0","0","18.00","0","0","-3.60","0","-35.68","0","-18.88","0","319.84"
+"22 Mar 2022 9:17:57 am UTC","17366956882","Order
+","408-5854604-4117947","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","BENGALURU","KARNATAKA","560092","246.43","0","0","29.57","0","0","-2.46","0","-6.51","0","-14.16","0","252.87"
+"22 Mar 2022 9:18:04 am UTC","17366956882","Order
+","407-6154970-4095516","7O-NUU2-KM8Q","DMC Nylon Industrial & Home Safety Cut Resistant Hand Gloves (White & Grey) - 10 Pairs","2","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","HNAHTHIAL","MIZORAM","796571","645.72","0","0","32.28","0","0","-6.46","0","-64.00","0","-28.32","0","579.22"
+"22 Mar 2022 9:18:11 am UTC","17366956882","Order
+","407-1275871-5630752","7O-NUU2-KM8Q","DMC Nylon Industrial & Home Safety Cut Resistant Hand Gloves (White & Grey) - 10 Pairs","2","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","Kovvur mandal","ANDHRA PRADESH","534342","645.72","0","0","32.28","0","0","-6.46","0","-64.00","0","-28.32","0","579.22"
+"22 Mar 2022 9:18:14 am UTC","17366956882","Order
+","406-5906969-7093162","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","Chennai","Tamil Nadu","600086","237.14","0","0","11.86","0","0","-2.37","0","-5.88","0","-9.44","0","231.31"
+"22 Mar 2022 9:18:51 am UTC","17342365002","Order
+","406-1085364-6529942","AM-YQT8-F5EX","HEISHI Unisex Cotton Reusable Gloves (White, Set of 5 Pairs)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Amazon
+","Madhepura","BIHAR","852128","237.14","38.10","0","13.76","0","0","-2.75","0","-41.13","-124.96","-9.44","0","110.72"
+"22 Mar 2022 9:20:03 am UTC","17342365002","Order
+","406-0178926-0147503","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","MUMBAI","MAHARASHTRA","400053","237.14","0","0","11.86","0","0","-2.37","0","-5.88","0","-9.44","0","231.31"
+"22 Mar 2022 9:23:16 am UTC","17342365002","Order
+","403-2351387-6040365","SW-9HK9-TDSJ","Pehel International | Plastic Disposable Gloves | for Cleaning, Kitchen, Garden, Sanitation & Other Daily uses, Transparent | 12 Inch | Set of 200 Pai","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Amazon
+","IMPHAL","MANIPUR","795001","422.04","67.80","-67.80","75.96","0","0","-4.22","0","-11.75","-159.30","-18.88","0","303.85"
+"22 Mar 2022 9:23:36 am UTC","17342365002","Order
+","403-2351387-6040365","SW-9HK9-TDSJ","Pehel International | Plastic Disposable Gloves | for Cleaning, Kitchen, Garden, Sanitation & Other Daily uses, Transparent | 12 Inch | Set of 200 Pai","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Amazon
+","IMPHAL","MANIPUR","795001","211.02","33.90","-33.90","37.98","0","0","-2.11","0","-5.88","-114.46","-9.44","0","117.11"
+"22 Mar 2022 9:25:36 am UTC","17342365002","Shipping Services
+","404-5860232-4901123","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"22 Mar 2022 9:26:25 am UTC","17366956882","Order
+","403-3825767-9138759","NN-CE3J-WII2","Pehel International ® Unisex Disposable Bouffant Cap (Blue) -100 Pieces","4","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","HYDERABAD","TELANGANA","500084","377.16","0","0","18.84","0","0","-3.76","0","-53.76","0","-37.76","0","300.72"
+"22 Mar 2022 9:26:57 am UTC","17342365002","Order
+","406-1867446-2311569","WS-X25N-FBML","Wellness Pulse Respirometer Three Ball Deep Breathing Lung Exerciser for Adults, White, Pack of 1.","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","NADUVANNUR","KERALA","673614","360.00","0","0","18.00","0","0","-3.60","0","-35.68","0","-18.88","0","319.84"
+"22 Mar 2022 9:27:21 am UTC","17366956882","Order
+","406-2654370-7753143","WS-X25N-FBML","Wellness Pulse Respirometer Three Ball Deep Breathing Lung Exerciser for Adults, White, Pack of 1.","2","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","GHAZIABAD","UTTAR PRADESH","201014","360.00","0","0","18.00","0","0","-3.60","0","-8.92","0","-18.88","0","346.60"
+"22 Mar 2022 9:36:21 am UTC","17366956882","Order
+","406-0980909-0183514","C3-HD8B-8E2Y","Pehel International | Reusable Natural Latex Safety Gloves | for Washing, Cleaning, Kitchen, Garden, Sanitation & Other Daily uses, Yellow Color | Pac","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","DOIWALA","UTTARAKHAND","248161","253.39","33.90","0","51.71","0","0","-2.87","0","-31.75","-124.96","-14.16","0","165.26"
+"22 Mar 2022 9:41:30 am UTC","17342365002","Order
+","404-5860232-4901123","0N-KC8L-FR5J","Safety Products Net Reflective Jacket (Green, 2"" Radium Type, Medium)","12","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","JAMTARA","JHARKHAND","815351","739.32","0","0","88.68","0","0","-7.44","0","-112.43","0","-113.28","0","594.85"
+"22 Mar 2022 6:48:22 pm UTC","17342365002","Reimbursements","404-3192450-1729116","0N-KC8L-FR5J","Reimbursement issued for lost or damaged package","30","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","909.75","909.75"
+"22 Mar 2022 6:48:26 pm UTC","17342365002","Reimbursements","402-1559639-6341144","7O-NUU2-KM8Q","Reimbursement issued for lost or damaged package","20","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","5,705.49","5,705.49"
+"22 Mar 2022 6:50:04 pm UTC","17342365002","Reimbursements","404-0066989-1008363","0N-KC8L-FR5J","Reimbursement issued for lost or damaged package","4","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","202.17","202.17"
+"22 Mar 2022 7:02:34 pm UTC","17342365002","Reimbursements","171-0293146-8876321","QJ-BYLE-NHCY","Reimbursement issued for lost or damaged package","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","938.94","938.94"
+"22 Mar 2022 9:22:45 pm UTC","17342365002","Refund
+","404-3930026-4371550","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","GUNTUR","ANDHRA PRADESH","522007","-247.32","0","0","-29.68","0","0","2.47","0","6.54","0","14.16","0","-253.83"
+"23 Mar 2022 6:40:55 am UTC","17342365002","Adjustment
+","407-2743960-6595563","PA-RJWA-YYQR","FBA Inventory Reimbursement - Customer Service Issue","1","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","0","167.58","167.58"
+"23 Mar 2022 6:43:22 am UTC","17342365002","Adjustment
+","407-6899147-2780314","YX-FTOU-XMMX","FBA Inventory Reimbursement - Customer Service Issue","1","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","0","392.94","392.94"
+"23 Mar 2022 7:01:06 am UTC","17342365002","Refund
+","408-2429250-8425166","3B-SEE4-QY9J","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","PALACOLE","ANDHRA PRADESH","534260","-247.32","0","0","-29.68","0","0","2.47","0","6.54","0","14.16","0","-253.83"
+"23 Mar 2022 7:20:52 am UTC","17342365002","Adjustment
+","404-3058208-8319551","C3-HD8B-8E2Y","FBA Inventory Reimbursement - Customer Service Issue","1","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","0","124.51","124.51"
+"23 Mar 2022 8:51:07 am UTC","17366956882","Shipping Services
+","402-2977155-0971566","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"23 Mar 2022 8:51:14 am UTC","17366956882","Shipping Services
+","407-3352647-5442721","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"23 Mar 2022 8:51:58 am UTC","17342365002","Shipping Services
+","407-5902066-9386743","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"23 Mar 2022 9:06:33 am UTC","17342365002","Order
+","407-5902066-9386743","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","JUNNAR","MAHARASHTRA","410502","233.33","0","0","11.67","0","0","-2.33","0","-5.78","0","-9.44","0","227.45"
+"23 Mar 2022 9:07:12 am UTC","17366956882","Order
+","402-2977155-0971566","3Q-9W5Z-X2RP","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","MUMBAI","MAHARASHTRA","400076","292.37","0","0","52.63","0","0","-2.92","0","-56.99","0","-14.16","0","270.93"
+"23 Mar 2022 9:07:28 am UTC","17366956882","Order
+","407-3352647-5442721","3Q-9W5Z-X2RP","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","MUMBAI","MAHARASHTRA","400076","292.37","0","0","52.63","0","0","-2.92","0","-56.99","0","-14.16","0","270.93"
+"23 Mar 2022 9:08:40 am UTC","17342365002","Order
+","403-6368522-1862716","HF-6BZ8-B8B1","Pehel International Nylon Safety Hand Gloves (White & Grey, Set of 5 Pairs)","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Amazon
+","HYDERABAD","TELANGANA","501512","542.86","0","0","27.14","0","0","-5.42","0","-60.53","-97.94","-28.32","0","377.79"
+"23 Mar 2022 9:10:54 am UTC","17366956882","Order
+","402-1386025-8385147","PA-RJWA-YYQR","Pehel International Dishcloth Cellulose Sponge Cloths, Eco-Friendly No Odor Reusable Cleaning Cloths for Kitchen - Absorbent Dish Cloth Hand Towel (As","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","BHONGIR","TELANGANA","508116","253.39","0","0","45.61","0","0","-2.53","0","-31.75","-84.96","-14.16","0","165.60"
+"23 Mar 2022 9:37:05 am UTC","17366956882","Order
+","171-7957188-7391511","C3-HD8B-8E2Y","Pehel International | Reusable Natural Latex Safety Gloves | for Washing, Cleaning, Kitchen, Garden, Sanitation & Other Daily uses, Yellow Color | Pac","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","SONIPAT","HARYANA","131001","253.39","33.90","-33.90","45.61","0","0","-2.53","0","-31.75","-84.96","-14.16","0","165.60"
+"23 Mar 2022 6:45:23 pm UTC","17366956882","Tax Withheld","","","TDS - Section 194-O - Tue Mar 22 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-36.51","0","0","0","0","-36.51"
+"23 Mar 2022 7:13:05 pm UTC","17342365002","Tax Withheld","","","TDS - Section 194-O - Tue Mar 22 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-22.45","0","0","0","0","-22.45"
+"24 Mar 2022 2:48:14 am UTC","17342365002","Refund
+","403-3178149-5254716","3B-SEE4-QY9J","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","MARKAPUR","ANDHRA PRADESH","523316","-247.32","0","0","-29.68","0","0","2.47","0","6.54","0","14.16","0","-253.83"
+"24 Mar 2022 4:44:09 am UTC","17366956882","Tax Withheld","","","TDS - Section 194-O - Wed Mar 23 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-10.92","0","0","0","0","-10.92"
+"24 Mar 2022 5:22:44 am UTC","17342365002","Tax Withheld","","","TDS - Section 194-O - Wed Mar 23 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-7.76","0","0","0","0","-7.76"
+"24 Mar 2022 8:59:07 am UTC","17342365002","Shipping Services
+","403-5030284-9768341","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"24 Mar 2022 8:59:40 am UTC","17342365002","Shipping Services
+","171-4751950-1457947","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"24 Mar 2022 9:14:47 am UTC","17342365002","Order
+","171-4751950-1457947","QJ-BYLE-NHCY","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","HYDERABAD","TELANGANA","500032","1,270.34","0","0","228.66","0","0","-12.70","0","-265.32","0","-66.08","0","1,154.90"
+"24 Mar 2022 9:14:58 am UTC","17342365002","Order
+","403-5030284-9768341","NM-8PT8-XDXF","Pehel International Black Bouffant Cap 100 Pcs","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","CHENNAI","TAMIL NADU","600019","219.05","0","0","10.95","0","0","-2.19","0","-13.57","0","-9.44","0","204.80"
+"24 Mar 2022 9:15:45 am UTC","17366956882","Order
+","403-3250908-5449941","AM-YQT8-F5EX","HEISHI Unisex Cotton Reusable Gloves (White, Set of 5 Pairs)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","KANPUR","UTTAR PRADESH","208011","237.14","38.10","-38.10","11.86","0","0","-2.37","0","-41.13","-84.96","-9.44","0","111.10"
+"24 Mar 2022 9:15:50 am UTC","17342365002","Order
+","405-1097713-9253904","C3-HD8B-8E2Y","Pehel International | Reusable Natural Latex Safety Gloves | for Washing, Cleaning, Kitchen, Garden, Sanitation & Other Daily uses, Yellow Color | Pac","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Amazon
+","GOPALGANJ","BIHAR","841428","253.39","33.90","0","51.71","0","0","-2.87","0","-31.75","-124.96","-14.16","0","165.26"
+"25 Mar 2022 5:40:35 am UTC","17384723002","Tax Withheld","","","TDS - Section 194-O - Thu Mar 24 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-17.77","0","0","0","0","-17.77"
+"25 Mar 2022 5:59:35 am UTC","17366956882","Tax Withheld","","","TDS - Section 194-O - Thu Mar 24 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-2.37","0","0","0","0","-2.37"
+"25 Mar 2022 9:14:25 am UTC","17384723002","Shipping Services
+","404-0913444-3768338","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-146.32","0","-146.32"
+"25 Mar 2022 9:14:44 am UTC","17366956882","Shipping Services
+","407-4293541-1585132","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"25 Mar 2022 9:15:07 am UTC","17366956882","Shipping Services
+","402-2657489-1371536","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"25 Mar 2022 9:30:22 am UTC","17366956882","Order
+","407-4293541-1585132","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","Angamaly","KERALA","683572","234.29","0","0","11.71","0","0","-2.34","0","-5.81","0","-9.44","0","228.41"
+"25 Mar 2022 9:30:26 am UTC","17366956882","Order
+","402-2657489-1371536","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","5","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","HYDERABAD","TELANGANA","500028","1,227.70","0","0","147.30","0","0","-12.30","0","-32.47","0","-70.80","0","1,259.43"
+"25 Mar 2022 9:31:05 am UTC","17384723002","Order
+","404-0913444-3768338","RN-8X3V-0GXK","PEHEL INTERNATIONAL | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All | (B","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","Bhagalpur","BIHAR","812001","507.63","0","0","91.37","0","0","-5.08","0","-98.95","0","-29.50","0","465.47"
+"25 Mar 2022 9:32:14 am UTC","17366956882","Order
+","406-6026320-6521961","7F-7Z6V-UF2U","PEHEL INTERNATIONAL | Unisex Cotton Reusable Gloves | Hand Protection Multi-Purpose Gloves | Ideal for Gardening, Kitchen and Daily Routine Activities","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","BENGALURU","KARNATAKA","560103","237.14","38.10","-38.10","11.86","0","0","-2.37","0","-26.44","-84.96","-9.44","0","125.79"
+"26 Mar 2022 5:09:33 am UTC","17384723002","Tax Withheld","","","TDS - Section 194-O - Fri Mar 25 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-5.08","0","0","0","0","-5.08"
+"26 Mar 2022 5:40:00 am UTC","17366956882","Tax Withheld","","","TDS - Section 194-O - Fri Mar 25 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-16.99","0","0","0","0","-16.99"
+"26 Mar 2022 9:24:47 am UTC","17366956882","Shipping Services
+","406-8840614-1841145","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"26 Mar 2022 9:39:40 am UTC","17366956882","Order
+","406-8840614-1841145","NM-8PT8-XDXF","Pehel International Black Bouffant Cap 100 Pcs","10","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","ARRAH","BIHAR","802301","2,181.00","0","0","109.00","0","0","-21.80","0","-135.11","0","-94.40","0","2,038.69"
+"26 Mar 2022 9:41:53 am UTC","17384723002","Order
+","406-4116402-3962715","W4-BCML-II6W","Pehel International Unisex Cotton Reusable Gloves Ideal for Gardening, Kitchen and Daily Routine Activities (White, Set of 10 Pairs)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Amazon
+","MUMBAI","MAHARASHTRA","400003","380.00","0","0","19.00","0","0","-3.80","0","-42.37","-60.18","-14.16","0","278.49"
+"26 Mar 2022 9:42:19 am UTC","17366956882","Order
+","405-9707477-7281920","7F-7Z6V-UF2U","PEHEL INTERNATIONAL | Unisex Cotton Reusable Gloves | Hand Protection Multi-Purpose Gloves | Ideal for Gardening, Kitchen and Daily Routine Activities","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","BOKARO STEEL CITY","JHARKHAND","827001","265.71","38.10","0","15.19","0","0","-3.04","0","-29.63","-124.96","-14.16","0","147.21"
+"26 Mar 2022 1:39:42 pm UTC","17366956882","Refund
+","171-6230055-9322704","NM-8PT8-XDXF","Pehel International Black Bouffant Cap 100 Pcs","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","kolkata","WEST BENGAL","700078","-219.05","0","0","-10.95","0","0","2.19","0","4.34","0","9.44","0","-214.03"
+"27 Mar 2022 5:14:45 am UTC","17366956882","Tax Withheld","","","TDS - Section 194-O - Sat Mar 26 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-24.85","0","0","0","0","-24.85"
+"27 Mar 2022 5:40:00 am UTC","17384723002","Tax Withheld","","","TDS - Section 194-O - Sat Mar 26 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-3.80","0","0","0","0","-3.80"
+"27 Mar 2022 8:55:17 am UTC","17366956882","Shipping Services
+","402-4353482-2339555","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"27 Mar 2022 8:55:17 am UTC","17366956882","Shipping Services
+","171-6339570-7656369","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-114.46","0","-114.46"
+"27 Mar 2022 8:55:52 am UTC","17366956882","Shipping Services
+","408-9985969-1108338","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","0","0","0"
+"27 Mar 2022 9:10:36 am UTC","17366956882","Order
+","171-6339570-7656369","3C-9BLT-UKV8","PROCARE Disposable Latex Medical Examination Gloves (Medium, 100 Pieces, White)","2","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","THIRUVIDAIMARUDUR","TAMIL NADU","612104","493.34","0","0","24.66","0","0","-4.94","0","-12.24","0","-28.32","0","472.50"
+"27 Mar 2022 9:10:52 am UTC","17366956882","Order
+","402-4353482-2339555","BA-VFYU-G48K","Infinizy Pack of 100 Shoes Cover","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","BENGALURU","KARNATAKA","560070","222.32","0","0","26.68","0","0","-2.22","0","-41.13","0","-9.44","0","196.21"
+"27 Mar 2022 9:11:08 am UTC","17384723002","Order
+","408-9985969-1108338","WS-X25N-FBML","Wellness Pulse Respirometer Three Ball Deep Breathing Lung Exerciser for Adults, White, Pack of 1.","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","NEW DELHI","DELHI","110080","0","0","0","0","0","0","0","0","0","0","0","0","0"
+"27 Mar 2022 9:11:48 am UTC","17384723002","Order
+","407-6093251-3228313","ZS-FS5A-UAB7","PEHEL INTERNATIONAL Safety Hand Gloves (White, 10 Pairs)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Amazon
+","SRIKAKULAM","ANDHRA PRADESH","532426","379.05","38.10","0","20.85","0","0","-4.17","0","-42.27","-124.96","-14.16","0","252.44"
+"27 Mar 2022 9:11:54 am UTC","17366956882","Order
+","404-0431896-4316349","7F-7Z6V-UF2U","PEHEL INTERNATIONAL | Unisex Cotton Reusable Gloves | Hand Protection Multi-Purpose Gloves | Ideal for Gardening, Kitchen and Daily Routine Activities","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","SURENDRANAGAR","GUJARAT","363001","265.72","0","0","13.28","-1.33","-1.33","0","0","-29.63","-47.20","-14.16","0","185.35"
+"28 Mar 2022 4:51:28 am UTC","17399723252","Tax Withheld","","","TDS - Section 194-O - Sun Mar 27 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-9.81","0","0","0","0","-9.81"
+"28 Mar 2022 5:17:00 am UTC","17384723002","Tax Withheld","","","TDS - Section 194-O - Sun Mar 27 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-4.17","0","0","0","0","-4.17"
+"28 Mar 2022 7:07:36 am UTC","17399723252","Cancellation","404-2340131-3633939","","Order Cancellation Charge","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.54","0","-84.54"
+"28 Mar 2022 8:50:02 am UTC","17384723002","FBA Inventory Fee
+","","","FBA Inbound Pickup Service","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","0","-297.48","-297.48"
+"28 Mar 2022 9:13:41 am UTC","17384723002","Shipping Services
+","404-5251091-0223556","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"28 Mar 2022 9:13:57 am UTC","17399723252","Shipping Services
+","406-6361473-3651521","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"28 Mar 2022 9:28:02 am UTC","17399723252","Shipping Services
+","171-1251126-9252348","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"28 Mar 2022 9:29:30 am UTC","17399723252","Order
+","406-6361473-3651521","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","Surat","GUJARAT","395007","245.54","0","0","29.46","-1.23","-1.23","0","0","-6.49","0","-14.16","0","251.89"
+"28 Mar 2022 9:29:41 am UTC","17384723002","Order
+","171-5273990-3163564","C3-HD8B-8E2Y","Pehel International | Reusable Natural Latex Safety Gloves | for Washing, Cleaning, Kitchen, Garden, Sanitation & Other Daily uses, Yellow Color | Pac","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Amazon
+","KANPUR","UTTAR PRADESH","208022","253.39","33.90","0","51.71","0","0","-2.87","0","-31.75","-124.96","-14.16","0","165.26"
+"28 Mar 2022 9:29:45 am UTC","17384723002","Order
+","404-5251091-0223556","42-ET17-IGMZ","3M Command, Clear Decorating & organizing wall hooks, Holds Strongly, Reusable, Adhesive hooks for wall, Multi-surface damage free hooks for hanging (","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","hyderabad","Telangana","500025","379.04","0","0","18.96","0","0","-3.80","0","-42.27","0","-18.88","0","333.05"
+"28 Mar 2022 9:43:07 am UTC","17399723252","Order
+","171-1251126-9252348","42-ET17-IGMZ","3M Command, Clear Decorating & organizing wall hooks, Holds Strongly, Reusable, Adhesive hooks for wall, Multi-surface damage free hooks for hanging (","4","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","BHILWARA","RAJASTHAN","311001","758.08","0","0","37.92","0","0","-7.60","0","-84.54","0","-37.76","0","666.10"
+"29 Mar 2022 1:29:48 am UTC","17384723002","Refund
+","406-1867446-2311569","WS-X25N-FBML","Wellness Pulse Respirometer Three Ball Deep Breathing Lung Exerciser for Adults, White, Pack of 1.","2","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","NADUVANNUR","KERALA","673614","-360.00","0","0","-18.00","0","0","3.60","0","35.68","0","18.88","0","-319.84"
+"29 Mar 2022 2:02:01 am UTC","17384723002","Refund
+","407-5542311-1249953","KJ-5HUM-Q54A","Medicure Premium Latex Gloves - Medium Sized - 100 pieces","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","West godavari NARASAPUR","ANDHRA PRADESH","534275","-246.43","0","0","-29.57","0","0","2.46","0","6.51","0","14.16","0","-252.87"
+"29 Mar 2022 5:30:45 am UTC","17441057102","Transfer
+","","","To account ending with: ","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","0","0","0","0","-2,340.65","-2,340.65"
+"29 Mar 2022 6:07:16 am UTC","17384723002","Refund
+","403-5030284-9768341","NM-8PT8-XDXF","Pehel International Black Bouffant Cap 100 Pcs","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","CHENNAI","TAMIL NADU","600019","-219.05","0","0","-10.95","0","0","2.19","0","10.86","0","9.44","0","-207.51"
+"29 Mar 2022 6:48:58 am UTC","17384723002","Refund
+","404-5860232-4901123","0N-KC8L-FR5J","Safety Products Net Reflective Jacket (Green, 2"" Radium Type, Medium)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","JAMTARA","JHARKHAND","815351","-61.61","0","0","-7.39","0","0","0.62","0","7.49","0","9.44","0","-51.45"
+"29 Mar 2022 6:50:27 am UTC","17384723002","Refund
+","404-5860232-4901123","0N-KC8L-FR5J","Safety Products Net Reflective Jacket (Green, 2"" Radium Type, Medium)","11","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","JAMTARA","JHARKHAND","815351","-677.71","0","0","-81.29","0","0","6.82","0","82.45","0","103.84","0","-565.89"
+"29 Mar 2022 7:10:16 am UTC","17384723002","FBA Inventory Fee
+","","","FBA Inbound Pickup Service","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","0","-297.48","-297.48"
+"29 Mar 2022 7:37:56 am UTC","17384723002","Refund
+","406-1085364-6529942","AM-YQT8-F5EX","HEISHI Unisex Cotton Reusable Gloves (White, Set of 5 Pairs)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Amazon
+","Madhepura","BIHAR","852128","-237.14","0","0","-11.86","0","0","2.37","0","32.91","0","9.44","0","-204.28"
+"29 Mar 2022 8:53:50 am UTC","17441057102","Shipping Services
+","408-5936681-9267543","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"29 Mar 2022 9:01:35 am UTC","17441057102","Shipping Services
+","408-4143733-5548349","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-47.20","0","-47.20"
+"29 Mar 2022 9:02:04 am UTC","17384723002","Shipping Services
+","404-7037588-9644304","","Easy Ship weight handling fees","","Amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-60.18","0","-60.18"
+"29 Mar 2022 9:09:06 am UTC","17441057102","Order
+","408-5936681-9267543","KT-YR1D-ZWC8","SurgiMax Latex Examination Gloves 100 Pcs Box (Medium)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","Teh. CHACHYOT District Mandi","HIMACHAL PRADESH","175028","332.38","0","0","16.62","0","0","-3.32","0","-32.95","0","-14.16","0","298.57"
+"29 Mar 2022 9:17:13 am UTC","17441057102","Order
+","408-4143733-5548349","NK-HZ7E-VK8Y","Generic Plastic Gloves Disposable (80pcs) 11""x 12","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","GANDHINAGAR","GUJARAT","382028","33.34","0","0","1.66","-0.17","-0.17","0","0","-3.30","0","-9.44","0","21.92"
+"29 Mar 2022 9:17:14 am UTC","17384723002","Order
+","404-7037588-9644304","NK-HZ7E-VK8Y","Generic Plastic Gloves Disposable (80pcs) 11""x 12","6","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","MUMBAI","MAHARASHTRA","400067","199.98","0","0","10.02","0","0","-1.98","0","-19.82","0","-56.64","0","131.56"
+"29 Mar 2022 4:18:09 pm UTC","17441057102","Adjustment
+","","","Other","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","0","0","0","0","23.13","23.13"
+"29 Mar 2022 5:22:53 pm UTC","17384723002","Adjustment
+","","","Other","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","0","0","0","0","60.18","60.18"
+"29 Mar 2022 6:05:06 pm UTC","17384723002","Tax Withheld","","","TDS - Section 194-O - Mon Mar 28 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-6.66","0","0","0","0","-6.66"
+"29 Mar 2022 6:49:46 pm UTC","17441057102","Tax Withheld","","","TDS - Section 194-O - Mon Mar 28 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-10.04","0","0","0","0","-10.04"
+"30 Mar 2022 4:51:40 am UTC","17441057102","Tax Withheld","","","TDS - Section 194-O - Tue Mar 29 00:00:00 UTC 2022","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","-3.66","0","0","0","0","-3.66"
+"30 Mar 2022 5:31:41 am UTC","17384723002","Tax Withheld","","","TDS - Section 194-O - Tue Mar 29 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-2.00","0","0","0","0","-2.00"
+"30 Mar 2022 6:01:06 am UTC","17447527782","Transfer
+","","","To account ending with: ","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","0","0","0","0","-2,014.84","-2,014.84"
+"31 Mar 2022 6:10:00 am UTC","17454045472","Transfer
+","","","To account ending with: ","","","Electronic Transactions (Credit Card/Net Banking/GC)","","","","","0","0","0","0","0","0","0","0","0","0","0","-3,833.79","-3,833.79"
+"31 Mar 2022 9:01:29 am UTC","17454045472","Shipping Services
+","408-0829795-2709159","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-80.24","0","-80.24"
+"31 Mar 2022 9:01:39 am UTC","17454045472","Shipping Services
+","405-7250232-4514743","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"31 Mar 2022 9:01:56 am UTC","17454045472","Shipping Services
+","406-8184570-3688341","","Easy Ship weight handling fees","","Amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","","","","0","0","0","0","0","0","0","0","0","0","-84.96","0","-84.96"
+"31 Mar 2022 9:17:11 am UTC","17454045472","Order
+","408-0829795-2709159","QJ-BYLE-NHCY","PEHEL INTERNATIONAL ® | Plastic Disposable Shoe Cover | Shoes, Boots, slippers Protectors | Waterproof, Non Slip Durable Covers | One Size Fits All |","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","MUMBAI 400081","MAHARASHTRA","400081","1,270.34","0","0","228.66","0","0","-12.70","0","-265.32","0","-66.08","0","1,154.90"
+"31 Mar 2022 9:17:21 am UTC","17454045472","Order
+","405-7250232-4514743","NM-8PT8-XDXF","Pehel International Black Bouffant Cap 100 Pcs","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","LUNGLEI","MIZORAM","796701","218.10","0","0","10.90","0","0","-2.18","0","-13.51","0","-9.44","0","203.87"
+"31 Mar 2022 9:17:31 am UTC","17454045472","Order
+","406-8184570-3688341","QH-EEOY-1SFY","Pehel International | Plastic Disposable Gloves | for Cleaning, Kitchen, Garden, Sanitation & Other Daily uses, Transparent | 12 Inch | Set of 500 Pai","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Merchant","new delhi","Delhi","110021","677.12","0","0","121.88","0","0","-6.77","0","-84.85","0","-29.50","0","677.88"
+"31 Mar 2022 9:19:31 am UTC","17384723002","Order
+","171-0276791-8025949","C3-HD8B-8E2Y","Pehel International | Reusable Natural Latex Safety Gloves | for Washing, Cleaning, Kitchen, Garden, Sanitation & Other Daily uses, Yellow Color | Pac","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Amazon
+","VISAKHAPATNAM","ANDHRA PRADESH","531173","253.39","33.90","0","51.71","0","0","-2.87","0","-31.75","-124.96","-14.16","0","165.26"
+"31 Mar 2022 9:19:35 am UTC","17454045472","Order
+","408-5958174-6522768","N5-VVVX-F8OD","Pehel International Scrub Pads (Green) (30 Pcs)","1","amazon.in","Electronic Transactions (Credit Card/Net Banking/GC)","Amazon
+","CHENNAI","TAMIL NADU","600042","278.81","0","0","50.19","0","0","-2.79","0","-66.00","-84.96","-14.16","0","161.09"
+"31 Mar 2022 9:19:48 am UTC","17384723002","Order
+","406-5206409-7947559","C3-HD8B-8E2Y","Pehel International | Reusable Natural Latex Safety Gloves | for Washing, Cleaning, Kitchen, Garden, Sanitation & Other Daily uses, Yellow Color | Pac","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Amazon
+","IMPHAL","MANIPUR","795002","253.39","33.90","0","51.71","0","0","-2.87","0","-31.75","-124.96","-14.16","0","165.26"
