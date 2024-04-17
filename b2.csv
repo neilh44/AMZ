@@ -7,7 +7,7 @@
 "TCS-IGST:Tax Collected at Source from Integrated GST"
 "TDS (Section 194-O): Tax Deducted at Source under Section 194-O of Income tax Act, 1961"
 "Selling fees: Includes variable closing fees and referral fees."
-"Other transaction fees: Includes shipping chargebacks, shipping holdbacks, and sales tax collection fees.
+"Other transaction fees: Includes shipping chargebacks, shipping holdbacks, and sales tax collection fees"
 "Other: Includes non-order transaction amounts. For more details, see the ""Type"" and ""Description"" columns for each order ID."
 "date/time","settlement id
 ","type
