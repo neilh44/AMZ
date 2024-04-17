@@ -15,6 +15,7 @@ def load_csv(file_path):
     return pd.read_csv(file_path)
 
 # Load the Mistral 7B model
+@st.cache(allow_output_mutation=True)
 def load_mistral_model():
     # Set up logging
     logging.basicConfig(level=logging.INFO)
