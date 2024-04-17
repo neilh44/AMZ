@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from llama_index import LlamaIndex
+from llama_index import Llama_Index
 
 # Load the model and tokenizer
 model_name = "mistralai/Mistral-7B-Instruct-v0.2"
