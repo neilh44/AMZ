@@ -10,4 +10,5 @@ llama_index.embeddings.huggingface
 torch
 accelerate
 bitsandbytes
-torch torchvision
+torch
+torchvision
