@@ -1,11 +1,12 @@
 import streamlit as st
 import pandas as pd
 import logging
-from transformers import BartForConditionalGeneration, BartTokenizer
+from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
-# Load BART model and tokenizer
-model = BartForConditionalGeneration.from_pretrained("facebook/bart-large-cnn")
-tokenizer = BartTokenizer.from_pretrained("facebook/bart-large-cnn")
+# Load GPT-2 model and tokenizer
+model_name = "gpt2"
+model = GPT2LMHeadModel.from_pretrained(model_name)
+tokenizer = GPT2Tokenizer.from_pretrained(model_name)
 
 # Load the CSV file with caching
 @st.cache_data
@@ -15,7 +16,7 @@ def load_csv(file_path):
 # Main function to run the Streamlit app
 def main():
     # Set page title
-    st.title("BART Text Generation with Streamlit")
+    st.title("GPT-2 Text Generation with Streamlit")
 
     # Load the CSV file
     csv_file_path = "https://raw.githubusercontent.com/neilh44/AMZ/main/A1.csv"
@@ -43,6 +44,6 @@ def main():
         st.subheader("Generated Text:")
         st.write(generated_text)
 
-# Function to generate text using BART model
+# Function to generate text using GPT-2 model
 if __name__ == "__main__":
     main()
