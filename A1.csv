@@ -9,7 +9,7 @@
 "Selling fees: Includes variable closing fees and referral fees."
 "Other transaction fees: Includes shipping chargebacks, shipping holdbacks, and sales tax collection fees."
 "Other: Includes non-order transaction amounts. For more details, see the ""Type"" and ""Description"" columns for each order ID."
-"date/time","settlement id
+"date/time","settlement id"
 ","type
 ","order id","Sku","description
 ","quantity","marketplace
