@@ -1,4 +1,6 @@
 transformers
 streamlit
 pandas
-llama-index 
+ streamlit 
+pandas 
+llama_index
