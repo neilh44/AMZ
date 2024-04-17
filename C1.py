@@ -1,6 +1,3 @@
-pip install accelerate
-pip install bitsandbytes
-
 import os
 import torch
 import streamlit as st
