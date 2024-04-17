@@ -6,7 +6,7 @@ from llama_index.core import PromptTemplate, Settings
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
 # Load the CSV file with caching
-@st.cache
+@st.cache_data
 def load_csv(file_path):
     return pd.read_csv(file_path)
 
