@@ -8,22 +8,9 @@
 "TDS (Section 194-O): Tax Deducted at Source under Section 194-O of Income tax Act, 1961"
 "Selling fees: Includes variable closing fees and referral fees."
 "Other transaction fees: Includes shipping chargebacks, shipping holdbacks, and sales tax collection fees"
-"date/time","settlement id
-","type
-","order id","Sku","description
-","quantity","marketplace
-","account type","fulfillment","order city
-","order state
-","order postal
-","product sales
-","shipping credits
-","promotional rebates
-","Total sales tax liable(GST before adjusting TCS)","TCS-CGST","TCS-SGST","TCS-IGST","TDS (Section 194-O)","selling fees
-","fba fees
-","other transaction fees
-","other
-","total
-"
+"date/time","settlement id",
+"type","order id","Sku","description","quantity","marketplace","account type","fulfillment","order city","order state","order postal","product sales","shipping credits","promotional rebates
+","Total sales tax liable(GST before adjusting TCS)","TCS-CGST","TCS-SGST","TCS-IGST","TDS (Section 194-O)","selling fees","fba fees","other transaction fees","other","total"
 "28 Feb 2022 11:29:50 pm UTC","17211222672","Refund
 ","402-0447361-8028365","W4-BCML-II6W","Pehel International Unisex Cotton Reusable Gloves Ideal for Gardening, Kitchen and Daily Routine Activities (White, Set of 10 Pairs)","1","amazon.in","Cash On Delivery Transactions and Non-Transactional Fees","Merchant","SHILLONG","MEGHALAYA","793010","-284.76","0","0","-14.24","0","0","2.85","0","5.64","0","14.16","0","-276.35"
 "1 Mar 2022 5:25:28 am UTC","17211222672","Tax Withheld","","","TDS - Section 194-O - Mon Feb 28 00:00:00 UTC 2022","","","Cash On Delivery Transactions and Non-Transactional Fees","","","","","0","0","0","0","0","0","0","-17.78","0","0","0","0","-17.78"
