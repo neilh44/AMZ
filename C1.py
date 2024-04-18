@@ -1,3 +1,4 @@
+import torch
 import streamlit as st
 import pandas as pd
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
