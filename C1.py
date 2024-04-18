@@ -1,61 +1,31 @@
-import os
-import torch
 import streamlit as st
 import pandas as pd
-import logging
-from llama_index.llms.huggingface import HuggingFaceLLM
-from llama_index.core import PromptTemplate, Settings
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from llama_index.llms.huggingface import HuggingFaceInferenceAPI
+from langchain.llm import LangChainLLM
+from langchain.core import PromptTemplate, Settings
 
 # Load the CSV file
 @st.cache
 def load_csv(file_path):
     return pd.read_csv(file_path)
 
-# Load the Mistral 7B model
-def load_mistral_model():
-    # Set up logging
-    logging.basicConfig(level=logging.INFO)
-
+# Load the BART model
+def load_bart_model():
     # Define model name
-    MISTRAL_7B = "mistralai/Mistral-7B-Instruct-v0.2"
+    BART_MODEL = "facebook/bart-large-cnn"
 
-    # Define system prompt
-    SYSTEM_PROMPT = """You are an AI assistant that analyzes data from the provided CSV file. Here are some rules you always follow:
-    - Generate human-readable output.
-    - Generate only the requested output, avoiding unnecessary information.
-    - Avoid offensive or inappropriate language.
-    """
-
-    # Create query wrapper prompt
-    query_wrapper_prompt = PromptTemplate(
-        "[INST]<>\n" + SYSTEM_PROMPT + "<>\n\n{query_str}[/INST] "
+    # Initialize the LangChainLLM instance with BART model
+    llm = LangChainLLM(
+        model_name=BART_MODEL,
+        device="cuda" if torch.cuda.is_available() else "cpu",
     )
 
-    # Initialize the HuggingFaceLLM instance with Mistral 7B model
-    llm = HuggingFaceLLM(
-        context_window=4096,
-        max_new_tokens=2048,
-        generate_kwargs={"temperature": 0.0, "do_sample": False},
-        query_wrapper_prompt=query_wrapper_prompt,
-        tokenizer_name=MISTRAL_7B,
-        model_name=MISTRAL_7B,
-        device_map="auto",
-    )
-
-    # Define the embedding model
-    embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5")
-
-    # Set llm and embed_model in Settings
+    # Set llm in Settings
     Settings.llm = llm
-    Settings.embed_model = embed_model
 
 # Main function to run the Streamlit app
 def main():
     # Set page title
-    st.title("Mistral 7B Text Generation with Streamlit")
+    st.title("BART Text Generation with Streamlit")
 
     # Load the CSV file
     csv_file_path = "https://raw.githubusercontent.com/neilh44/AMZ/main/A1C2.csv"
@@ -65,8 +35,8 @@ def main():
     st.subheader("CSV File Content")
     st.write(df)
 
-    # Load the Mistral 7B model
-    load_mistral_model()
+    # Load the BART model
+    load_bart_model()
 
     # Text input area for user prompt
     prompt = st.text_area("Enter your prompt here:", height=100)
@@ -80,7 +50,7 @@ def main():
         st.subheader("Generated Text:")
         st.write(generated_text)
 
-# Function to generate text using Mistral 7B model
+# Function to generate text using BART model
 def generate_text(prompt):
     return Settings.llm.generate(prompt)
 
