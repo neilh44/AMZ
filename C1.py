@@ -3,8 +3,7 @@ import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import FAISS
-from transformers import AutoTokenizer, AutoModelForQuestionAnswering
-import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 load_dotenv()
 st.set_page_config(page_title="DocGenius: Document Generation AI")
@@ -28,18 +27,12 @@ if pdf is not None:
 
     query = st.text_input("Ask your Question about your PDF")
     if query:
-        tokenizer = AutoTokenizer.from_pretrained("tuner007/mistral-7b")
-        model = AutoModelForQuestionAnswering.from_pretrained("tuner007/mistral-7b")
+        tokenizer = AutoTokenizer.from_pretrained("mistral-community/Mixtral-8x22B-v0.1")
+        model = AutoModelForCausalLM.from_pretrained("mistral-community/Mixtral-8x22B-v0.1")
 
         inputs = tokenizer(query, chunks, return_tensors="pt", padding=True, truncation=True)
-        with torch.no_grad():
-            outputs = model(**inputs)
+        outputs = model.generate(**inputs, max_length=50)
 
-        start_scores = outputs.start_logits
-        end_scores = outputs.end_logits
-
-        all_tokens = tokenizer.convert_ids_to_tokens(inputs["input_ids"][0].tolist())
-        answer_tokens = all_tokens[torch.argmax(start_scores) : torch.argmax(end_scores) + 1]
-        answer = tokenizer.convert_tokens_to_string(answer_tokens)
+        answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
         st.success(answer)
