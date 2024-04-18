@@ -5,6 +5,5 @@ llama_index.embeddings.huggingface
 llama_index.core
 pandas
 streamlit
-accelerate
-bitsandbytes
+langchain
 torch
