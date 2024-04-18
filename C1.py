@@ -1,4 +1,5 @@
 from dotenv import load_dotenv
+import torch 
 import streamlit as st
 import time
 from PyPDF2 import PdfReader
