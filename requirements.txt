@@ -6,3 +6,4 @@ streamlit
 faiss-cpu
 streamlit-extras
 transformers
+torch
