@@ -2,6 +2,7 @@ from dotenv import load_dotenv
 import streamlit as st
 import time
 from PyPDF2 import PdfReader
+from PyPDF2.utils import PdfReadError
 from streamlit_extras.add_vertical_space import add_vertical_space
 from transformers import GPT2Tokenizer, GPT2Model  # Import GPT-2 model and tokenizer
 from langchain.text_splitter import CharacterTextSplitter
@@ -22,7 +23,7 @@ with st.sidebar:
     add_vertical_space(2)
     st.write('Why drown in papers when your chat buddy can give you the highlights and summary? Happy Reading.')
     add_vertical_space(2)
-    st.write('Made by ***Sangita Pokhrel***')
+    st.write('Made by ***Nilesh Hanotia***')
 
 def main():
     load_dotenv()
@@ -35,49 +36,53 @@ def main():
     
     # extract the text
     if pdf is not None:
-        pdf_reader = PdfReader(pdf)
-        text = ""
-        for page in pdf_reader.pages:
-            text += page.extract_text()
-        
-        # split into chunks
-        text_splitter = CharacterTextSplitter(
-            separator="\n",
-            chunk_size=1000,
-            chunk_overlap=200,
-            length_function=len
-        )
-        chunks = text_splitter.split_text(text)
-      
-        # Load GPT-2 tokenizer and model
-        tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
-        model = GPT2Model.from_pretrained("gpt2")
-        
-        # Generate embeddings for each chunk
-        embeddings = []
-        for chunk in chunks:
-            inputs = tokenizer(chunk, return_tensors="pt", max_length=512, truncation=True)
-            with torch.no_grad():
-                outputs = model(**inputs)
-            # Use the mean of the last hidden states as the embedding
-            embeddings.append(outputs.last_hidden_state.mean(dim=1).squeeze().numpy())
-      
-        # Create FAISS index
-        index = create_faiss_index(embeddings)
-      
-        # show user input
-        with st.chat_message("user"):
-            st.write("Hello World 👋")
-        user_question = st.text_input("Please ask a question about your PDF here:")
-        if user_question:
-            # Perform similarity search with FAISS index
-            query_embedding = compute_embedding(user_question, tokenizer, model)
-            top_k = search_faiss_index(index, query_embedding, k=5)
+        try:
+            pdf_reader = PdfReader(pdf)
+            text = ""
+            for page in pdf_reader.pages:
+                text += page.extract_text()
             
-            # Display top-k results
-            st.write("Top 5 similar chunks:")
-            for idx in top_k:
-                st.write(chunks[idx])
+            # split into chunks
+            text_splitter = CharacterTextSplitter(
+                separator="\n",
+                chunk_size=1000,
+                chunk_overlap=200,
+                length_function=len
+            )
+            chunks = text_splitter.split_text(text)
+          
+            # Load GPT-2 tokenizer and model
+            tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
+            model = GPT2Model.from_pretrained("gpt2")
+            
+            # Generate embeddings for each chunk
+            embeddings = []
+            for chunk in chunks:
+                inputs = tokenizer(chunk, return_tensors="pt", max_length=512, truncation=True)
+                with torch.no_grad():
+                    outputs = model(**inputs)
+                # Use the mean of the last hidden states as the embedding
+                embeddings.append(outputs.last_hidden_state.mean(dim=1).squeeze().numpy())
+          
+            # Create FAISS index
+            index = create_faiss_index(embeddings)
+          
+            # show user input
+            with st.chat_message("user"):
+                st.write("Hello World 👋")
+            user_question = st.text_input("Please ask a question about your PDF here:")
+            if user_question:
+                # Perform similarity search with FAISS index
+                query_embedding = compute_embedding(user_question, tokenizer, model)
+                top_k = search_faiss_index(index, query_embedding, k=5)
+                
+                # Display top-k results
+                st.write("Top 5 similar chunks:")
+                for idx in top_k:
+                    st.write(chunks[idx])
+        except PdfReadError as e:
+            st.error("Error reading the PDF file. Make sure the file is not encrypted or provide the password.")
+            st.error(str(e))
 
 def create_faiss_index(embeddings):
     # Convert embeddings to numpy array
