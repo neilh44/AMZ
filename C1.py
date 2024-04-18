@@ -13,13 +13,16 @@ github_raw_url = "https://github.com/neilh44/AMZ/raw/main/A1C2.csv"
 df = pd.read_csv(github_raw_url)
 
 def generate_order_ids(input_text):
-    input_ids = tokenizer.encode(input_text, return_tensors="pt")
-    output = model.generate(input_ids, max_length=100, num_return_sequences=1, temperature=0.7, attention_mask=input_ids)
-    generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
-    sku = input_text.split("'")[1]
-    filtered_df = df[df['Sku'] == sku]
-    order_ids = filtered_df['order id'].tolist()
-    return generated_text, order_ids
+    try:
+        input_ids = tokenizer.encode(input_text, return_tensors="pt")
+        output = model.generate(input_ids, max_length=100, num_return_sequences=1, temperature=0.7, attention_mask=input_ids)
+        generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
+        sku = input_text.split("'")[1]
+        filtered_df = df[df['Sku'] == sku]
+        order_ids = filtered_df['order id'].tolist()
+        return generated_text, order_ids
+    except Exception as e:
+        return f"Error: {str(e)}", []
 
 st.title("Order ID Lookup App")
 
