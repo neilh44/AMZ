@@ -1,58 +1,30 @@
 import streamlit as st
 import pandas as pd
-from langchain.llm import LangChainLLM
-from langchain.core import PromptTemplate, Settings
+from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
-# Load the CSV file
-@st.cache
-def load_csv(file_path):
-    return pd.read_csv(file_path)
+# Load Hugging Face model
+model_name = "gpt2"
+tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+model = GPT2LMHeadModel.from_pretrained(model_name)
 
-# Load the BART model
-def load_bart_model():
-    # Define model name
-    BART_MODEL = "facebook/bart-large-cnn"
+# Load CSV data
+github_raw_url = "https://github.com/neilh44/AMZ/raw/main/A1C2.csv"
+df = pd.read_csv(github_raw_url)
 
-    # Initialize the LangChainLLM instance with BART model
-    llm = LangChainLLM(
-        model_name=BART_MODEL,
-        device="cuda" if torch.cuda.is_available() else "cpu",
-    )
+def generate_order_ids(input_text):
+    input_ids = tokenizer.encode(input_text, return_tensors="pt")
+    output = model.generate(input_ids, max_length=100, num_return_sequences=1, temperature=0.7, attention_mask=input_ids)
+    generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
+    sku = input_text.split("'")[1]
+    filtered_df = df[df['Sku'] == sku]
+    order_ids = filtered_df['order id'].tolist()
+    return generated_text, order_ids
 
-    # Set llm in Settings
-    Settings.llm = llm
+st.title("Order ID Lookup App")
 
-# Main function to run the Streamlit app
-def main():
-    # Set page title
-    st.title("BART Text Generation with Streamlit")
+input_text = st.text_input("Enter input text", "provide order id with sku '2D-7N1V-0ZCB'")
 
-    # Load the CSV file
-    csv_file_path = "https://raw.githubusercontent.com/neilh44/AMZ/main/A1C2.csv"
-    df = load_csv(csv_file_path)
-
-    # Display the CSV file
-    st.subheader("CSV File Content")
-    st.write(df)
-
-    # Load the BART model
-    load_bart_model()
-
-    # Text input area for user prompt
-    prompt = st.text_area("Enter your prompt here:", height=100)
-
-    # Button to generate text
-    if st.button("Generate Text"):
-        # Generate text
-        generated_text = generate_text(prompt)
-
-        # Display generated text
-        st.subheader("Generated Text:")
-        st.write(generated_text)
-
-# Function to generate text using BART model
-def generate_text(prompt):
-    return Settings.llm.generate(prompt)
-
-if __name__ == "__main__":
-    main()
+if st.button("Generate"):
+    generated_text, order_ids = generate_order_ids(input_text)
+    st.write("Generated Text:", generated_text)
+    st.write("Order IDs:", order_ids)
