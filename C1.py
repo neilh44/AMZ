@@ -9,6 +9,22 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain.callbacks import get_openai_callback
+import faiss
+
+# Assuming `embeddings` is a list of numpy arrays representing vectors
+def create_faiss_index(embeddings):
+    # Convert embeddings to numpy array
+    embeddings_np = np.vstack(embeddings)
+    
+    # Create FAISS index
+    index = faiss.IndexFlatL2(embeddings_np.shape[1])
+    index.add(embeddings_np)
+    
+    return index
+
+# Usage
+knowledge_base = create_faiss_index(embeddings)
+
 
 # Sidebar contents
 with st.sidebar:
