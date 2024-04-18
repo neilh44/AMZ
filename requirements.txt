@@ -1,4 +1,7 @@
-torch 
-transformers
-pandas
+langchain
+OpenAI
+PyPDF2
+python-dotenv
 streamlit
+faiss-cpu
+streamlit-extras
