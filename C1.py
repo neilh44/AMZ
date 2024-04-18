@@ -1,8 +1,7 @@
 from dotenv import load_dotenv
 import streamlit as st
 import time
-from PyPDF2 import PdfReader
-from PyPDF2.utils import PdfReadError
+from PyPDF2 import PdfReader, PdfReadError  # Import PdfReader and PdfReadError from PyPDF2
 from streamlit_extras.add_vertical_space import add_vertical_space
 from transformers import GPT2Tokenizer, GPT2Model  # Import GPT-2 model and tokenizer
 from langchain.text_splitter import CharacterTextSplitter
@@ -23,7 +22,7 @@ with st.sidebar:
     add_vertical_space(2)
     st.write('Why drown in papers when your chat buddy can give you the highlights and summary? Happy Reading.')
     add_vertical_space(2)
-    st.write('Made by ***Nilesh Hanotia***')
+    st.write('Made by ***Sangita Pokhrel***')
 
 def main():
     load_dotenv()
