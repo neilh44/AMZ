@@ -11,9 +11,7 @@ from transformers import AutoTokenizer, AutoModelForQuestionAnswering
 import torch
 
 load_dotenv()
-from PIL import Image
-img = Image.open(r"C:\Users\KALYAN\Desktop\Projects\DocGenius\images.jpeg")
-st.set_page_config(page_title="DocGenius: Document Generation AI", page_icon= img)
+st.set_page_config(page_title="DocGenius: Document Generation AI")
 st.header("Ask Your PDF📄")
 pdf = st.file_uploader("Upload your PDF", type="pdf")
 
@@ -39,11 +37,9 @@ if pdf is not None:
     if query:
         docs = knowledge_base.similarity_search(query)
 
-        # Use Hugging Face's tokenizer and model for LLM
         tokenizer = AutoTokenizer.from_pretrained("tuner007/mistral-7b")
         model = AutoModelForQuestionAnswering.from_pretrained("tuner007/mistral-7b")
 
-        # Process the documents and query for question answering
         inputs = tokenizer(query, chunks, return_tensors="pt", padding=True, truncation=True)
         with torch.no_grad():
             outputs = model(**inputs)
@@ -51,7 +47,6 @@ if pdf is not None:
         start_scores = outputs.start_logits
         end_scores = outputs.end_logits
 
-        # Get the answer with the highest start and end scores
         all_tokens = tokenizer.convert_ids_to_tokens(inputs["input_ids"][0].tolist())
         answer_tokens = all_tokens[torch.argmax(start_scores) : torch.argmax(end_scores) + 1]
         answer = tokenizer.convert_tokens_to_string(answer_tokens)
