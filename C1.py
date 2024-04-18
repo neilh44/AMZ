@@ -1,12 +1,8 @@
 from dotenv import load_dotenv
-import os
 import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
-from langchain.chains.question_answering import load_qa_chain
-from langchain.callbacks import get_openai_callback
 from transformers import AutoTokenizer, AutoModelForQuestionAnswering
 import torch
 
@@ -30,13 +26,8 @@ if pdf is not None:
 
     chunks = text_splitter.split_text(text)
 
-    embeddings = OpenAIEmbeddings()
-    knowledge_base = FAISS.from_texts(chunks, embeddings)
-
     query = st.text_input("Ask your Question about your PDF")
     if query:
-        docs = knowledge_base.similarity_search(query)
-
         tokenizer = AutoTokenizer.from_pretrained("tuner007/mistral-7b")
         model = AutoModelForQuestionAnswering.from_pretrained("tuner007/mistral-7b")
 
